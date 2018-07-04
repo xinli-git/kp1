@@ -1,0 +1,21 @@
+1	WT P1-1
+2	WT P1-2
+3	WT P1-3
+4	Het P1-1
+5	Het P1-2
+6	Het P1-3
+7	KO P1-1
+8	KO P1-2
+9	KO P1-3
+10	WT 12w-1
+11	WT 12w-2
+12	WT 12w-3
+13	KO 12w-1
+14	KO 12w-2
+15	KO 12w-3
+16	WT 92w-1
+17	WT 92w-2
+18	KO 92w Tumor-1
+19	KO 92w Tumor-2
+20	KO 92w Tumor-3
+21	KO 92w Tumor-4
