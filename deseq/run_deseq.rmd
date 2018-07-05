@@ -7,7 +7,20 @@ https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
 
 http://bioconductor.org/packages/release/bioc/vignettes/tximport/inst/doc/tximport.html#rsem
 
+check which R is compatible with tximport
+use if none compatible /users/lfresard/R_3.3.2/bin/R
 ```{r}
+which R
+module avail
+```
+
+```{r}
+source("https://bioconductor.org/biocLite.R")
+biocLite("tximport")
+```
+
+```{r}
+dir <- "/Users/xinli/mac_hdd/kp1/rsem_output"
 files <- file.path(dir, "rsem", samples$run, paste0(samples$run, ".genes.results.gz"))
 names(files) <- paste0("sample", 1:6)
 txi.rsem <- tximport(files, type = "rsem", txIn = FALSE, txOut = FALSE)
