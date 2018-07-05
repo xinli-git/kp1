@@ -25,14 +25,14 @@ biocLite("tximport")
 
 load sample file
 ```{r}
-samples <- read.table(file.path("~/projects/kp1/sample/", "kp1_sample_table.txt"), header=TRUE)
+dir <- "~/projects/kp1/"
+samples <- read.table(file.path(dir, "sample", "kp1_sample_table.txt"), header=TRUE)
 ```
 
 ```{r}
 library("tximport")
 library("readr")
-dir <- "~/projects/kp1/rsem/rsem_output/"
-files <- file.path(dir, "rsem", samples$run, paste0(samples$run, ".Aligned.toTranscriptome.genes.results"))
+files <- file.path(dir, "rsem", "rsem_output", samples$run, ".Aligned.toTranscriptome.genes.results")
 names(files) <- paste0("sample", 1:6)
 txi.rsem <- tximport(files, type = "rsem", txIn = FALSE, txOut = FALSE)
 head(txi.rsem$counts)
