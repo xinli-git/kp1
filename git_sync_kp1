@@ -12,7 +12,9 @@ git init
 git pull --all
 git add --all
 git commit -am "`date`"
-git remote add udn https://github.com/xinli-git/kp1
+# git remote add udn https://github.com/xinli-git/kp1
+# change to ssh url
+git remote add udn git@github.com:xinli-git/kp1
 git push --set-upstream udn master
 
 
