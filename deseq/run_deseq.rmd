@@ -7,7 +7,7 @@ https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
 
 http://bioconductor.org/packages/release/bioc/vignettes/tximport/inst/doc/tximport.html#rsem
 
-check which R is compatible with tximport
+check which R is compatible with tximport,
 use if none compatible /users/lfresard/R_3.3.2/bin/R
 ```{r}
 which R
@@ -21,6 +21,11 @@ R
 ```{r}
 source("https://bioconductor.org/biocLite.R")
 biocLite("tximport")
+```
+
+load sample file
+```{r}
+samples <- read.table(file.path("~/projects/kp1/sample/", "kp1_sample_table.txt"), header=TRUE)
 ```
 
 ```{r}
