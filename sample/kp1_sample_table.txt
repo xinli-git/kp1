@@ -1,21 +1,22 @@
-1	WT P1-1
-2	WT P1-2
-3	WT P1-3
-4	Het P1-1
-5	Het P1-2
-6	Het P1-3
-7	KO P1-1
-8	KO P1-2
-9	KO P1-3
-10	WT 12w-1
-11	WT 12w-2
-12	WT 12w-3
-13	KO 12w-1
-14	KO 12w-2
-15	KO 12w-3
-16	WT 92w-1
-17	WT 92w-2
-18	KO 92w Tumor-1
-19	KO 92w Tumor-2
-20	KO 92w Tumor-3
-21	KO 92w Tumor-4
+order	condition	feature	tissue	rna_lib	
+1	WT	P1-1	kidney	RD001
+2	WT	P1-2	kidney	RD002
+3	WT	P1-3	kidney	RD003
+4	Het	P1-1	kidney	RD004
+5	Het	P1-2	kidney	RD005
+6	Het	P1-3	kidney	RD006
+7	KO	P1-1	kidney	RD007
+8	KO	P1-2	kidney	RD008
+9	KO	P1-3	kidney	RD009
+10	WT	12w-1	kidney	RD010
+11	WT	12w-2	kidney	RD011
+12	WT	12w-3	kidney	RD012
+13	KO	12w-1	kidney	RD013
+14	KO	12w-2	kidney	RD014
+15	KO	12w-3	kidney	RD015
+16	WT	92w-1	kidney	RD016
+17	WT	92w-2	kidney	RD017
+18	KO	92w	Tumor-1	RD018
+19	KO	92w	Tumor-2	RD019
+20	KO 	92w	Tumor-3	RD020
+21	KO 	92w	Tumor-4	RD021
