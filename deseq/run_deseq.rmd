@@ -70,6 +70,7 @@ savehistory("~/projects/kp1/deseq/deseq_output/kp1_deseq.Rhistory")
 
 https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#rich-visualization-and-reporting-of-results
 
+### pcaExplorer, need browser interface
 http://bioconductor.org/packages/release/bioc/vignettes/pcaExplorer/inst/doc/pcaExplorer.html
 ```{r}
 library("pcaExplorer")
@@ -79,6 +80,7 @@ pcaExplorer(dds = ddsTxi)
 
 http://bioconductor.org/packages/release/bioc/html/ReportingTools.html
 
+### regionReport html report
 http://bioconductor.org/packages/release/bioc/html/regionReport.html
 ```{r}
 library('ggplot2')
