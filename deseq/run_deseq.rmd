@@ -40,6 +40,12 @@ txi.rsem <- tximport(files, type = "rsem", txIn = FALSE, txOut = FALSE)
 head(txi.rsem$counts)
 ```
 
+https://support.bioconductor.org/p/92763/
+edit effect length 0
+```{r}
+txi.rsem$length[txi.rsem$length == 0] <- 1
+```
+
 ## 2. deseq2 and p-values
 
 ```{r}
