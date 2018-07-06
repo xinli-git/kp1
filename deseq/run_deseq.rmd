@@ -21,6 +21,7 @@ R
 ```{r}
 source("https://bioconductor.org/biocLite.R")
 biocLite("tximport")
+biocLite("readr")
 ```
 
 load sample file
