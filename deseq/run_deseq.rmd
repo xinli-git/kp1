@@ -18,11 +18,16 @@ module avail
 module load r/3.4.2
 R
 ```
+
+install deseq and dependent packages
 ```{r}
 source("https://bioconductor.org/biocLite.R")
 biocLite("tximport")
 biocLite("readr")
 biocLite("DESeq2")
+biocLite("pcaExplorer")
+biocLite("regionReport")
+biocLite("ReportingTools")
 ```
 
 load sample file
@@ -31,6 +36,7 @@ dir <- "~/projects/kp1/"
 samples <- read.table(file.path(dir, "sample", "kp1_sample_table.txt"), header=TRUE)
 ```
 
+prepare deseq input data structure
 ```{r}
 library("tximport")
 library("readr")
@@ -55,11 +61,25 @@ ddsTxi <- DESeq(ddsTxi)
 resTxi = results(ddsTxi)
 ```
 
+```{r}
+save.image(file="~/projects/kp1/deseq/deseq_output/kp1_deseq.RData")
+savehistory("~/projects/kp1/deseq/deseq_output/kp1_deseq.Rhistory")
+```
+
 ## 3. ma plot, html report
 
 https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#rich-visualization-and-reporting-of-results
+
 http://bioconductor.org/packages/release/bioc/vignettes/pcaExplorer/inst/doc/pcaExplorer.html
+
 http://bioconductor.org/packages/release/bioc/html/ReportingTools.html
+library('ggplot2')
+library('regionReport')
+dir_deseq <- file.path(dir, "kp1_supp", "deseq")
+dir.create(dir_deseq, showWarnings = FALSE, recursive = TRUE)
+report <- DESeq2Report(dds, project = 'kp1 DESeq2 HTML report',
+    intgroup = c('condition', 'type'), outdir = dir_deseq,
+    output = 'kp1_deseq_index', theme = theme_bw())
 
 ## 4. pca among samples
 
