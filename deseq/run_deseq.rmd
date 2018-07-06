@@ -28,7 +28,7 @@ biocLite("DESeq2")
 biocLite("pcaExplorer")
 biocLite("regionReport")
 biocLite("ReportingTools")
-biocLite("org.Mm.eg.db")
+biocLite("EnsDb.Mmusculus.v79")
 ```
 
 load sample file
@@ -87,16 +87,17 @@ pcaExplorer(dds = ddsTxi)
 http://bioconductor.org/packages/release/bioc/html/ReportingTools.html
 ```{r}
 library(ReportingTools)
-library(org.Mm.eg.db)
+library(EnsDb.Mmusculus.v79)
 dir_deseq <- file.path(dir, "kp1_supp", "deseq")
-report2 <- HTMLReport(shortName = 'kp1, RNAseq_analysis_with_DESeq2',
-	title = 'kp1, RNA-seq analysis of differential expression using DESeq2',
-	reportDirectory = dir_deseq)
+report2 <- HTMLReport(shortName = 'kp1_RNAseq_analysis_with_DESeq2',
+	title = 'kp1 RNA-seq analysis of differential expression using DESeq2',
+	reportDirectory = "./reportingTools/")
 publish(ddsTxi, report2, pvalueCutoff=0.05,
-	annotation.db="org.Mm.eg.db", factor = colData(mockRna.dse)$conditions,
-	reportDir="./reports")
+	annotation.db="EnsDb.Mmusculus.v79", factor = colData(ddsTxi)$conditions,
+	reportDir=dir_deseq)
 finish(report2)
 ```
+https://xinli-git.github.io/kp1_supp/reportingTools/kp1_RNAseq_analysis_with_DESeq2.html
 
 ### regionReport html report
 http://bioconductor.org/packages/release/bioc/html/regionReport.html
