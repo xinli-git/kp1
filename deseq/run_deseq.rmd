@@ -32,8 +32,8 @@ samples <- read.table(file.path(dir, "sample", "kp1_sample_table.txt"), header=T
 ```{r}
 library("tximport")
 library("readr")
-files <- file.path(dir, "rsem", "rsem_output", samples$run, ".Aligned.toTranscriptome.genes.results")
-names(files) <- paste0("sample", 1:6)
+files <- file.path(dir, "rsem", "rsem_output", paste0(samples$run, ".Aligned.toTranscriptome.genes.results"))
+names(files) <- paste0("sample", 1:21)
 txi.rsem <- tximport(files, type = "rsem", txIn = FALSE, txOut = FALSE)
 head(txi.rsem$counts)
 ```
