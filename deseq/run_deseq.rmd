@@ -51,6 +51,8 @@ txi.rsem$length[txi.rsem$length == 0] <- 1
 ```{r}
 library("DESeq2")
 ddsTxi <- DESeqDataSetFromTximport(txi.rsem, colData = samples, design = ~ condition)
+ddsTxi <- DESeq(ddsTxi)
+resTxi = results(ddsTxi)
 ```
 
 ## 3. ma plot, html report
