@@ -22,6 +22,7 @@ R
 source("https://bioconductor.org/biocLite.R")
 biocLite("tximport")
 biocLite("readr")
+biocLite("DESeq2")
 ```
 
 load sample file
