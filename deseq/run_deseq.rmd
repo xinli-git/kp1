@@ -80,10 +80,11 @@ library('ggplot2')
 library('regionReport')
 dir_deseq <- file.path(dir, "kp1_supp", "deseq")
 dir.create(dir_deseq, showWarnings = FALSE, recursive = TRUE)
-report <- DESeq2Report(dds, project = 'kp1 DESeq2 HTML report',
-    intgroup = c('condition', 'type'), outdir = dir_deseq,
+report <- DESeq2Report(ddsTxi, project = 'kp1 DESeq2 HTML report',
+    intgroup = c('condition', 'tissue'), outdir = dir_deseq,
     output = 'kp1_deseq_index', theme = theme_bw())
 ```
+https://xinli-git.github.io/kp1_supp/deseq/kp1_deseq_index.html
 
 ## 4. pca among samples
 
