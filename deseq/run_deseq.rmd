@@ -81,8 +81,20 @@ library("pcaExplorer")
 pcaExplorer(dds = ddsTxi)
 ```
 
-
+### ReportingTools html report
 http://bioconductor.org/packages/release/bioc/html/ReportingTools.html
+```{r}
+library(ReportingTools)
+library(org.Mm.eg.db)
+dir_deseq <- file.path(dir, "kp1_supp", "deseq")
+report2 <- HTMLReport(shortName = 'kp1, RNAseq_analysis_with_DESeq2',
+	title = 'kp1, RNA-seq analysis of differential expression using DESeq2',
+	reportDirectory = dir_deseq)
+publish(ddsTxi, report2, pvalueCutoff=0.05,
+	annotation.db="org.Mm.eg.db", factor = colData(mockRna.dse)$conditions,
+	reportDir="./reports")
+finish(report2)
+```
 
 ### regionReport html report
 http://bioconductor.org/packages/release/bioc/html/regionReport.html
