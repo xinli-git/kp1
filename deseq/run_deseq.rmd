@@ -73,6 +73,7 @@ https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
 http://bioconductor.org/packages/release/bioc/vignettes/pcaExplorer/inst/doc/pcaExplorer.html
 
 http://bioconductor.org/packages/release/bioc/html/ReportingTools.html
+```{r}
 library('ggplot2')
 library('regionReport')
 dir_deseq <- file.path(dir, "kp1_supp", "deseq")
@@ -80,6 +81,7 @@ dir.create(dir_deseq, showWarnings = FALSE, recursive = TRUE)
 report <- DESeq2Report(dds, project = 'kp1 DESeq2 HTML report',
     intgroup = c('condition', 'type'), outdir = dir_deseq,
     output = 'kp1_deseq_index', theme = theme_bw())
+```
 
 ## 4. pca among samples
 
