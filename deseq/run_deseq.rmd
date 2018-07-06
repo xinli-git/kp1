@@ -91,9 +91,9 @@ library(EnsDb.Mmusculus.v79)
 dir_deseq <- file.path(dir, "kp1_supp", "deseq")
 report2 <- HTMLReport(shortName = 'kp1_RNAseq_analysis_with_DESeq2',
 	title = 'kp1 RNA-seq analysis of differential expression using DESeq2',
-	reportDirectory = "./reportingTools/")
-publish(ddsTxi, report2, pvalueCutoff=0.05,
-	annotation.db="EnsDb.Mmusculus.v79", factor = colData(ddsTxi)$conditions,
+	reportDirectory = "../kp1_supp/reportingTools/")
+publish(ddsTxi, report2, pvalueCutoff=1,
+	annotation.db="EnsDb.Mmusculus.v79", factor = colData(ddsTxi)$condition,
 	reportDir=dir_deseq)
 finish(report2)
 ```
@@ -110,7 +110,7 @@ report <- DESeq2Report(ddsTxi, project = 'kp1 DESeq2 HTML report',
     intgroup = c('condition', 'tissue'), outdir = dir_deseq,
     output = 'kp1_deseq_index', theme = theme_bw())
 ```
-https://xinli-git.github.io/kp1_supp/deseq/kp1_deseq_index.html
+https://xinli-git.github.io/kp1_supp/regionReport/kp1_deseq_index.html
 
 ## 4. pca among samples
 
