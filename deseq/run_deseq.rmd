@@ -41,6 +41,13 @@ head(txi.rsem$counts)
 
 ## 2. deseq2 and p-values
 
+```{r}
+library("DESeq2")
+ddsTxi <- DESeqDataSetFromTximport(txi,
+                                   colData = samples,
+                                   design = condition)
+```
+
 ## 3. ma plot, html report
 
 https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#rich-visualization-and-reporting-of-results
