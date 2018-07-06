@@ -32,7 +32,7 @@ samples <- read.table(file.path(dir, "sample", "kp1_sample_table.txt"), header=T
 ```{r}
 library("tximport")
 library("readr")
-files <- file.path(dir, "rsem", "rsem_output", paste0(samples$run, ".Aligned.toTranscriptome.genes.results"))
+files <- file.path(dir, "rsem", "rsem_output", paste0(samples$rna_lib, ".Aligned.toTranscriptome.genes.results"))
 names(files) <- paste0("sample", 1:21)
 txi.rsem <- tximport(files, type = "rsem", txIn = FALSE, txOut = FALSE)
 head(txi.rsem$counts)
@@ -54,4 +54,8 @@ https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
 ## 5. vst (variance stablizing transformation)
 
 https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#variance-stabilizing-transformation
+
+
+
+
 
