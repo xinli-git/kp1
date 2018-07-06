@@ -44,7 +44,7 @@ head(txi.rsem$counts)
 
 ```{r}
 library("DESeq2")
-ddsTxi <- DESeqDataSetFromTximport(txi.rsem, colData = samples, design = condition)
+ddsTxi <- DESeqDataSetFromTximport(txi.rsem, colData = samples, design = ~ condition)
 ```
 
 ## 3. ma plot, html report
