@@ -26,7 +26,7 @@ star_bam_output=~/projects/kp1/star/output_bam
 picard_script=~/projects/kp1/picard/picard_kp1.sh
 ```
 
-# star directories
+## star directories
 ```{bash}
 merged_fastq_dir=~/projects/kp1/fastq/output_merged/
 star_index=~/projects/mapping/star/star_index/Mus_musculus.GRCm38.92.vM17.overhang74.index/
@@ -34,15 +34,15 @@ star_script=~/projects/kp1/star/star_alignment_kp1.sh
 star_bam_output=~/projects/kp1/star/output_bam
 ```
 
-# rsem directories
+## rsem directories
 ```{bash}
 star_bam_output=~/projects/kp1/star/output_bam
 rsem_script=~/projects/kp1/rsem/rsem_kp1.sh
 rsem_output=~/projects/kp1/rsem/rsem_output
 ```
 
-# skipped step
-# adapter is already cut in bcl2fastq
+## skipped steps
+adapter is already cut in bcl2fastq
 ```{bash}
 cutadapt_script=/users/lfresard/repos/rare_disease/scripts/fastq_handling/trim_adapters_150bpreads.sh
 date
