@@ -1,7 +1,7 @@
 
 # kp1/deseq2 analysis
 
-## 1. prepare rsem output for deseq2
+## 1. prepare deseq2 input from rsem output
 
 https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#transcript-abundance-files-and-tximport-input
 
