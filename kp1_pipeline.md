@@ -41,6 +41,13 @@ rsem_script=~/projects/kp1/rsem/rsem_kp1.sh
 rsem_output=~/projects/kp1/rsem/rsem_output
 ```
 
+## rna-seqc directories
+```{bash}
+_seqc_script=~/projects/kp1/rna_seqc/rna_seqc_kp1.sh
+rna_seqc_output=~/projects/kp1/rna_seqc/rna_seqc_output
+```
+
+
 ## skipped steps
 adapter is already cut in bcl2fastq
 ```{bash}
@@ -53,20 +60,8 @@ date
 echo 'convert bcl to fastq, de-multiplexing, cutadapter'
 echo 'finishing de-multiplexing'
 
-echo 'start trimming'
-echo 'done trimming'
-
-echo 'star fastqc'
-echo 'done fastqc'
-
-echo 'star picard mark duplicates'
-echo 'done mark duplicates'
-
-echo "start mapping"
-echo "mapping finished"
-
-echo "start quantifying"
-echo "finished quantifying"
+echo 'star trimming'
+echo 'end trimming'
 
 echo "start rna-seqc quality control"
 echo "done rna-seqc"
