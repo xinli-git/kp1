@@ -19,7 +19,7 @@ merged_fastq_dir=${working_dir}/fastq/output_merged
 
 ## fastqc directories
 ```{bash}
-tqc_cmd=~/tools/FastQC/fastqc
+fastqc_cmd=~/tools/FastQC/fastqc
 merged_fastq_dir=${working_dir}/fastq/output_merged/
 fastqc_output_dir=${working_dir}/fastqc/output
 ```
