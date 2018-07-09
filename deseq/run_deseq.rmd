@@ -118,6 +118,10 @@ https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
 https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#data-quality-assessment-by-sample-clustering-and-visualization
 ### CountClust
 https://bioconductor.org/packages/release/bioc/html/CountClust.html
+load data from this paper https://www.nature.com/articles/sdata2017185
+https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6081/
+combine RPKM/TPM tables of two studies, need to use normalized data for pca
+
 
 ## 5. vst (variance stablizing transformation)
 
