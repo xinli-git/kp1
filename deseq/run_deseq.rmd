@@ -121,7 +121,19 @@ https://bioconductor.org/packages/release/bioc/html/CountClust.html
 load data from this paper https://www.nature.com/articles/sdata2017185
 https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6081/
 combine RPKM/TPM tables of two studies, need to use normalized data for pca
-
+```{r}
+load("~/projects/kp1/deseq/deseq_output/kp1_deseq.RData")
+library(stringr)
+kp1_mouse_fpkm <- txi.rsem$abundance
+rownames(kp1_mouse_fpkm) <- str_extract(rownames(kp1_mouse_fpkm), '[^.]+')
+dir_countclust <- "~/projects/kp1/countclust"
+atlas_rpkm <- read.table(file.path(dir_countclust, "data_space", "mouse_rpkm.txt"), header=TRUE)
+atlas_design <- read.table(file.path(dir_countclust, "data_space", "mouse_design.txt"), header=TRUE)
+merged_rpkm <- merge(kp1_mouse_fpkm, atlas_rpkm, by = "row.names")
+temp <- atlas_design[, c('group', 'comparison', 'sample')]
+colnames(temp) <- c('tissue', 'condition', 'rna_lib')
+merged_design <- rbind(samples[, c('tissue', 'condition', 'rna_lib')], temp[, c('tissue', 'condition', 'rna_lib')])
+```
 
 ## 5. vst (variance stablizing transformation)
 
