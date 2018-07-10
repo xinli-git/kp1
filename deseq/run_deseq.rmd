@@ -153,6 +153,7 @@ annotation <- data.frame(
     tissue_label = factor(merged_design$compound,
                           levels = rev(unique(merged_design$compound) ) ) );
 
+pdf((dir, "kp1_supp", "kp1_countclust.pdf"))
 StructureGGplot(omega = omega,
                 annotation = annotation,
                 palette = RColorBrewer::brewer.pal(8, "Accent"),
@@ -163,7 +164,9 @@ StructureGGplot(omega = omega,
                                  axis_ticks_lwd_x = .1,
                                  axis_label_size = 7,
                                  axis_label_face = "bold"))
+dev.off()
 ```
+https://xinli-git.github.io/kp1_supp/kp1_countclust.pdf
 
 
 ## 5. vst (variance stablizing transformation)
