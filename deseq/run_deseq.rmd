@@ -58,8 +58,12 @@ txi.rsem$length[txi.rsem$length == 0] <- 1
 ```{r}
 library("DESeq2")
 ddsTxi <- DESeqDataSetFromTximport(txi.rsem, colData = samples, design = ~ tissue + age + condition)
+ddsTxi$condition <- relevel(ddsTxi$condition, ref = "WT")
+
 ddsTxi <- DESeq(ddsTxi)
-resTxi = results(ddsTxi)
+
+resTxi_WTvsHET = results(ddsTxi, contrast = c("condition", "WT", "HET"))
+resTxi_WTvsKO = results(ddsTxi, contrast = c("condition", "WT", "KO"))
 ```
 
 ```{r}
