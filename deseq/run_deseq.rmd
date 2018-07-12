@@ -105,7 +105,7 @@ http://bioconductor.org/packages/release/bioc/html/regionReport.html
 ```{r}
 library('ggplot2')
 library('regionReport')
-dir_deseq <- file.path(dir, "kp1_supp", "deseq")
+dir_deseq <- file.path(dir, "kp1_supp", "regionReport")
 dir.create(dir_deseq, showWarnings = FALSE, recursive = TRUE)
 report <- DESeq2Report(ddsTxi, project = 'kp1 DESeq2 HTML report',
     intgroup = c('condition', 'tissue', 'age'), outdir = dir_deseq,
