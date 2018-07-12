@@ -62,7 +62,7 @@ ddsTxi$condition <- relevel(ddsTxi$condition, ref = "WT")
 
 ddsTxi <- DESeq(ddsTxi)
 
-resTxi_WTvsHET = results(ddsTxi, contrast = c("condition", "WT", "HET"))
+resTxi_WTvsHET = results(ddsTxi, contrast = c("condition", "WT", "Het"))
 resTxi_WTvsKO = results(ddsTxi, contrast = c("condition", "WT", "KO"))
 ```
 
