@@ -89,6 +89,7 @@ http://bioconductor.org/packages/release/bioc/html/ReportingTools.html
 library(ReportingTools)
 library(EnsDb.Mmusculus.v79)
 dir_deseq <- file.path(dir, "kp1_supp", "deseq")
+setwd(file.path(dir, "deseq"))
 report2 <- HTMLReport(shortName = 'kp1_RNAseq_analysis_with_DESeq2',
 	title = 'kp1 RNA-seq analysis of differential expression using DESeq2',
 	reportDirectory = "../kp1_supp/reportingTools/")
