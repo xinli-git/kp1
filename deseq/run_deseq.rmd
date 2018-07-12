@@ -147,7 +147,7 @@ kp1.FitGoM <- FitGoM(t(merged_rpkm),
             K=6, tol=1)
 ```
 ```{r}
-omega <- kp1.FitGoM$clust_4$omega
+omega <- kp1.FitGoM$clust_6$omega
 
 annotation <- data.frame(
     sample_id = merged_design$rna_lib,
