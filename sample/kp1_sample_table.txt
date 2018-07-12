@@ -1,22 +1,22 @@
-order	condition	feature	tissue	rna_lib	notes	
-1	WT	P1-1	kidney	RD001	na
-2	WT	P1-2	kidney	RD002	na
-3	WT	P1-3	kidney	RD003	na
-4	Het	P1-1	kidney	RD004	na
-5	Het	P1-2	kidney	RD005	na
-6	Het	P1-3	kidney	RD006	na
-7	KO	P1-1	kidney	RD007	na
-8	KO	P1-2	kidney	RD008	na
-9	KO	P1-3	kidney	RD009	na
-10	WT	12w-1	kidney	RD010	na
-11	WT	12w-2	kidney	RD011	na
-12	WT	12w-3	kidney	RD012	na
-13	KO	12w-1	kidney	RD013	na
-14	KO	12w-2	kidney	RD014	na
-15	KO	12w-3	kidney	RD015	na
-16	WT	92w-1	kidney	RD016	na
-17	WT	92w-2	kidney	RD017	na
-18	KO	92w	tumor	RD018	Tumor-1
-19	KO	92w	tumor	RD019	Tumor-2
-20	KO 	92w	tumor	RD020	Tumor-3
-21	KO 	92w	tumor	RD021	Tumor-4
+order	condition	feature	age	tissue	rna_lib	notes	
+1	WT	P1-1	kidney	P1	RD001	na
+2	WT	P1-2	kidney	P1	RD002	na
+3	WT	P1-3	kidney	P1	RD003	na
+4	Het	P1-1	kidney	P1	RD004	na
+5	Het	P1-2	kidney	P1	RD005	na
+6	Het	P1-3	kidney	P1	RD006	na
+7	KO	P1-1	kidney	P1	RD007	na
+8	KO	P1-2	kidney	P1	RD008	na
+9	KO	P1-3	kidney	P1	RD009	na
+10	WT	12w-1	kidney	12w	RD010	na
+11	WT	12w-2	kidney	12w	RD011	na
+12	WT	12w-3	kidney	12w	RD012	na
+13	KO	12w-1	kidney	12w	RD013	na
+14	KO	12w-2	kidney	12w	RD014	na
+15	KO	12w-3	kidney	12w	RD015	na
+16	WT	92w-1	kidney	92w	RD016	na
+17	WT	92w-2	kidney	92w	RD017	na
+18	KO	92w	tumor	92w	RD018	Tumor-1
+19	KO	92w	tumor	92w	RD019	Tumor-2
+20	KO 	92w	tumor	92w	RD020	Tumor-3
+21	KO 	92w	tumor	92w	RD021	Tumor-4
