@@ -144,7 +144,7 @@ source("http://bioconductor.org/biocLite.R")
 biocLite("CountClust")
 library(CountClust)
 kp1.FitGoM <- FitGoM(t(merged_rpkm),
-            K=4, tol=1)
+            K=6, tol=1)
 ```
 ```{r}
 omega <- kp1.FitGoM$clust_4$omega
