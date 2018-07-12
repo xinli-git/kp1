@@ -1,4 +1,4 @@
-order	condition	feature	age	tissue	rna_lib	notes	
+order	condition	feature	tissue	age	rna_lib	notes	
 1	WT	P1-1	kidney	P1	RD001	na
 2	WT	P1-2	kidney	P1	RD002	na
 3	WT	P1-3	kidney	P1	RD003	na
