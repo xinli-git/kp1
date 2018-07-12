@@ -133,9 +133,9 @@ atlas_design <- read.table(file.path(dir_countclust, "data_space", "mouse_design
 merged_rpkm <- merge(kp1_mouse_fpkm, atlas_rpkm, by = "row.names")
 rownames(merged_rpkm) <- merged_rpkm$Row.names
 merged_rpkm$Row.names <- {}
-temp <- atlas_design[, c('group', 'comparison', 'sample')]
-colnames(temp) <- c('tissue', 'condition', 'rna_lib')
-merged_design <- rbind(samples[, c('tissue', 'condition', 'rna_lib')], temp[, c('tissue', 'condition', 'rna_lib')])
+temp <- atlas_design[, c('group', 'comparison', 'comparison', 'sample')]
+colnames(temp) <- c('tissue', 'condition', 'age', 'rna_lib')
+merged_design <- rbind(samples[, c('tissue', 'condition', 'age', 'rna_lib')], temp[, c('tissue', 'condition', 'age', 'rna_lib')])
 merged_design$compound <- paste(merged_design$tissue, merged_design$age, merged_design$condition)
 ```
 
