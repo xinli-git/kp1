@@ -154,7 +154,7 @@ annotation <- data.frame(
     tissue_label = factor(merged_design$compound,
                           levels = rev(unique(merged_design$compound) ) ) );
 
-pdf(dir, "kp1_supp", "kp1_countclust.pdf")
+pdf(file.path(dir, "kp1_supp", "kp1_countclust.pdf"))
 StructureGGplot(omega = omega,
                 annotation = annotation,
                 palette = RColorBrewer::brewer.pal(8, "Accent"),
