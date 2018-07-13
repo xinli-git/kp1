@@ -117,6 +117,12 @@ report <- DESeq2Report(ddsTxi, project = 'kp1 DESeq2 HTML report', nBest = nrow(
 ```
 https://xinli-git.github.io/kp1_supp/regionReport/kp1_deseq_index.html
 
+```{r}
+pdf(file.path(dir_deseq, "ENSMUSG00000030020.13.pdf"))
+plotCounts_gg("ENSMUSG00000030020.13", dds = ddsTxi, intgroup = c('condition', 'tissue', 'age'))
+dev.off()
+```
+
 ## 4. pca among samples
 
 https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#principal-component-plot-of-the-samples
