@@ -97,7 +97,7 @@ setwd(file.path(dir, "deseq"))
 report2 <- HTMLReport(shortName = 'kp1_RNAseq_analysis_with_DESeq2',
 	title = 'kp1 RNA-seq analysis of differential expression using DESeq2',
 	reportDirectory = "../kp1_supp/reportingTools/")
-publish(ddsTxi, report2, pvalueCutoff=1, n=nrow(ddsTxi),
+publish(ddsTxi, report2, pvalueCutoff=0.1, n=nrow(ddsTxi),
 	annotation.db="EnsDb.Mmusculus.v79", factor = colData(ddsTxi)$condition,
 	reportDir=dir_deseq)
 finish(report2)
