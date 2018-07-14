@@ -130,7 +130,7 @@ dev.off()
 ### CountClust
 * https://bioconductor.org/packages/release/bioc/html/CountClust.html
 * load data from this paper (https://www.nature.com/articles/sdata2017185)
-* https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6081/
+https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6081/
 * combine RPKM/TPM tables of two studies, need to use normalized data for pca
 ```{r}
 load("~/projects/kp1/deseq/deseq_output/kp1_deseq.RData")
