@@ -53,6 +53,13 @@ edit effect length 0
 txi.rsem$length[txi.rsem$length == 0] <- 1
 ```
 
+```{r}
+write.table(txi.rsem$abundance, file = file.path(dir, "kp1_supp", "rsem", "kp1_fpkm.txt"), append = FALSE, quote = FALSE, sep = "\t",
+            eol = "\n", na = "NA", dec = ".", row.names = TRUE,
+            col.names = TRUE, qmethod = c("escape", "double"),
+            fileEncoding = "")
+```
+
 ## 2. deseq2 and p-values
 
 ```{r}
@@ -183,6 +190,8 @@ https://xinli-git.github.io/kp1_supp/kp1_countclust.pdf
 ## 5. vst (variance stablizing transformation)
 
 https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#variance-stabilizing-transformation
+
+## 6. gene ontology
 
 
 
