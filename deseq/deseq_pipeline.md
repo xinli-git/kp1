@@ -119,14 +119,14 @@ library('regionReport')
 dir_deseq <- file.path(dir, "kp1_supp", "regionReport")
 dir.create(dir_deseq, showWarnings = FALSE, recursive = TRUE)
 report <- DESeq2Report(ddsTxi, project = 'kp1 DESeq2 HTML report', nBest = nrow(ddsTxi), 
-    intgroup = c('condition', 'tissue', 'age'), outdir = dir_deseq,
+    intgroup = c('tissue', 'age', 'condition'), outdir = dir_deseq,
     output = 'kp1_deseq_index', theme = theme_bw())
 ```
 https://xinli-git.github.io/kp1_supp/regionReport/kp1_deseq_index.html
 
 ```{r}
 pdf(file.path(dir_deseq, "ENSMUSG00000030020.13.pdf"))
-plotCounts_gg("ENSMUSG00000030020.13", dds = ddsTxi, intgroup = c('condition', 'tissue', 'age'))
+plotCounts_gg("ENSMUSG00000030020.13", dds = ddsTxi, intgroup = c('tissue', 'age', 'condition'))
 dev.off()
 ```
 
