@@ -118,7 +118,7 @@ library('ggplot2')
 library('regionReport')
 dir_deseq <- file.path(dir, "kp1_supp", "regionReport")
 dir.create(dir_deseq, showWarnings = FALSE, recursive = TRUE)
-report <- DESeq2Report(ddsTxi, project = 'kp1 DESeq2 HTML report', nBest = nrow(ddsTxi), 
+report <- DESeq2Report(ddsTxi, project = 'kp1 DESeq2 HTML report', nBest = nrow(ddsTxi), nBestFeatures = 20,  
     intgroup = c('tissue', 'age', 'condition'), outdir = dir_deseq,
     output = 'kp1_deseq_index', theme = theme_bw())
 ```
