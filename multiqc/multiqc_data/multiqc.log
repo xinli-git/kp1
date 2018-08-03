@@ -1,0 +1,281 @@
+[2018-08-02 23:41:30,012] multiqc                                            [DEBUG  ]  No MultiQC config found: /scg/apps/legacy/multiqc/1.5/lib/python2.7/site-packages/multiqc-1.5-py2.7.egg/multiqc_config.yaml
+[2018-08-02 23:41:30,012] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/xli6/.multiqc_config.yaml
+[2018-08-02 23:41:30,013] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2018-08-02 23:41:30,013] multiqc                                            [DEBUG  ]  Command used: /srv/gsfs0/software/multiqc/1.5/bin/multiqc ../data_scratch/fastqc ../data_scratch/rna_seqc ../data_scratch/star ../data_scratch/rsem ../data_scratch/picard
+[2018-08-02 23:41:30,723] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.5
+[2018-08-02 23:41:30,724] multiqc                                            [INFO   ]  This is MultiQC v1.5
+[2018-08-02 23:41:30,724] multiqc                                            [DEBUG  ]  Command     : /srv/gsfs0/software/multiqc/1.5/bin/multiqc ../data_scratch/fastqc ../data_scratch/rna_seqc ../data_scratch/star ../data_scratch/rsem ../data_scratch/picard
+[2018-08-02 23:41:30,724] multiqc                                            [DEBUG  ]  Working dir : /home/xli6/projects/kp1/multiqc
+[2018-08-02 23:41:30,724] multiqc                                            [INFO   ]  Template    : default
+[2018-08-02 23:41:30,724] multiqc                                            [INFO   ]  Searching '../data_scratch/fastqc'
+[2018-08-02 23:41:30,725] multiqc                                            [INFO   ]  Searching '../data_scratch/rna_seqc'
+[2018-08-02 23:41:30,725] multiqc                                            [INFO   ]  Searching '../data_scratch/star'
+[2018-08-02 23:41:30,725] multiqc                                            [INFO   ]  Searching '../data_scratch/rsem'
+[2018-08-02 23:41:30,725] multiqc                                            [INFO   ]  Searching '../data_scratch/picard'
+[2018-08-02 23:41:30,726] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, dedup, picard, prokka, samblaster, samtools, bamtools, jellyfish, vcftools, bbmap, bismark, hicexplorer, hicup, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastqc, clusterflow, bcl2fastq, interop
+[2018-08-02 23:41:30,726] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpdlmjSe
+[2018-08-02 23:41:32,334] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD006_merge_R1_fastqc.html
+[2018-08-02 23:41:32,335] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD021_merge_R2_fastqc.html
+[2018-08-02 23:41:32,711] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD018_merge_R2_fastqc.html
+[2018-08-02 23:41:33,536] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD015_merge_R2_fastqc.html
+[2018-08-02 23:41:33,537] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD004_merge_R2_fastqc.html
+[2018-08-02 23:41:33,538] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD001_merge_R2_fastqc.html
+[2018-08-02 23:41:34,920] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD016_merge_R2_fastqc.html
+[2018-08-02 23:41:34,921] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD006_merge_R2_fastqc.html
+[2018-08-02 23:41:34,921] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD002_merge_R2_fastqc.html
+[2018-08-02 23:41:35,149] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD011_merge_R2_fastqc.html
+[2018-08-02 23:41:35,484] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD019_merge_R1_fastqc.html
+[2018-08-02 23:41:36,017] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD021_merge_R1_fastqc.html
+[2018-08-02 23:41:36,679] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD009_merge_R2_fastqc.html
+[2018-08-02 23:41:36,939] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD008_merge_R1_fastqc.html
+[2018-08-02 23:41:36,941] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD009_merge_R1_fastqc.html
+[2018-08-02 23:41:36,941] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD002_merge_R1_fastqc.html
+[2018-08-02 23:41:37,154] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD019_merge_R2_fastqc.html
+[2018-08-02 23:41:37,154] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD014_merge_R2_fastqc.html
+[2018-08-02 23:41:37,157] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD004_merge_R1_fastqc.html
+[2018-08-02 23:41:37,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD014_merge_R1_fastqc.html
+[2018-08-02 23:41:37,337] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD012_merge_R2_fastqc.html
+[2018-08-02 23:41:37,338] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD003_merge_R1_fastqc.html
+[2018-08-02 23:41:37,338] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD012_merge_R1_fastqc.html
+[2018-08-02 23:41:38,010] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD003_merge_R2_fastqc.html
+[2018-08-02 23:41:38,164] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD005_merge_R2_fastqc.html
+[2018-08-02 23:41:38,169] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD007_merge_R1_fastqc.html
+[2018-08-02 23:41:38,171] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD005_merge_R1_fastqc.html
+[2018-08-02 23:41:38,988] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD010_merge_R2_fastqc.html
+[2018-08-02 23:41:38,988] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD020_merge_R2_fastqc.html
+[2018-08-02 23:41:39,180] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD011_merge_R1_fastqc.html
+[2018-08-02 23:41:39,524] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD017_merge_R1_fastqc.html
+[2018-08-02 23:41:39,524] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD001_merge_R1_fastqc.html
+[2018-08-02 23:41:39,525] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD017_merge_R2_fastqc.html
+[2018-08-02 23:41:40,036] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD013_merge_R1_fastqc.html
+[2018-08-02 23:41:40,037] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD020_merge_R1_fastqc.html
+[2018-08-02 23:41:40,306] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD016_merge_R1_fastqc.html
+[2018-08-02 23:41:41,470] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD010_merge_R1_fastqc.html
+[2018-08-02 23:41:41,470] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD008_merge_R2_fastqc.html
+[2018-08-02 23:41:41,982] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD013_merge_R2_fastqc.html
+[2018-08-02 23:41:42,262] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD018_merge_R1_fastqc.html
+[2018-08-02 23:41:42,262] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD015_merge_R1_fastqc.html
+[2018-08-02 23:41:42,264] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD007_merge_R2_fastqc.html
+[2018-08-02 23:41:48,038] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:42:08,766] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:42:29,304] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:42:49,953] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:43:11,169] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:43:31,983] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:43:52,543] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:44:13,460] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:44:34,065] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:44:55,327] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:45:16,674] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:45:37,121] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:45:57,868] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:46:17,775] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:46:38,596] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:46:59,906] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:47:20,923] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:47:41,891] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:48:03,483] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:48:25,960] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:48:47,025] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: countMetrics.html
+[2018-08-02 23:49:07,781] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: temp.fa
+[2018-08-02 23:49:07,784] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: temp.gtf
+[2018-08-02 23:49:08,038] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: temp1.gtf
+[2018-08-02 23:49:18,551] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD004.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:49:18,553] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD013.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:49:18,555] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD001.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:49:18,558] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD014.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:49:18,798] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD003.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:49:22,151] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD006.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:49:22,153] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD017.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:49:32,057] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD003.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:49:41,594] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD007.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:49:41,597] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD011.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:49:41,598] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD006.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:49:52,343] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD005.Chimeric.out.sam
+[2018-08-02 23:49:52,344] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD011.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:49:52,345] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD004.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:49:54,567] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD003.Chimeric.out.sam
+[2018-08-02 23:49:55,265] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD009.Chimeric.out.sam
+[2018-08-02 23:49:55,267] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD014.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:49:55,269] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD018.Chimeric.out.sam
+[2018-08-02 23:49:55,270] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD004.Chimeric.out.sam
+[2018-08-02 23:49:55,667] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD002.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:49:55,900] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD001.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:49:55,903] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD006.Chimeric.out.sam
+[2018-08-02 23:50:15,691] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD013.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:50:15,887] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD015.Chimeric.out.sam
+[2018-08-02 23:50:15,889] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD009.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:50:16,607] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD021.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:50:16,609] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD018.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:50:16,612] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD009.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:50:17,311] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD016.Chimeric.out.sam
+[2018-08-02 23:50:17,959] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD019.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:50:26,054] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD007.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:50:26,057] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD011.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:50:34,197] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD020.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:50:34,205] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD016.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:50:34,212] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD002.Chimeric.out.sam
+[2018-08-02 23:50:34,237] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD008.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:50:54,752] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD010.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:50:54,753] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD012.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:50:55,103] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD001.Chimeric.out.sam
+[2018-08-02 23:50:55,106] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD013.Chimeric.out.sam
+[2018-08-02 23:50:55,109] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD016.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:51:08,580] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD018.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:51:08,582] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD010.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:51:08,585] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD019.Chimeric.out.sam
+[2018-08-02 23:51:17,756] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD018.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:51:30,723] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD015.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:51:36,428] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD016.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:51:36,433] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD005.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:51:36,438] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD004.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:51:36,453] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD002.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:51:36,459] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD012.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:52:08,924] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD021.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:52:08,926] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD010.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:52:08,927] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD007.Chimeric.out.sam
+[2018-08-02 23:52:12,925] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD020.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:52:12,926] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD017.Chimeric.out.sam
+[2018-08-02 23:52:29,128] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD005.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:52:29,131] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD002.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:52:36,629] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD021.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:52:36,638] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD013.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:52:36,645] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD017.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:52:36,659] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD008.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:52:36,665] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD021.Chimeric.out.sam
+[2018-08-02 23:52:36,667] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD012.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:52:36,672] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD009.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:52:37,415] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD001.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:52:37,417] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD010.Chimeric.out.sam
+[2018-08-02 23:52:37,422] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD020.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:52:37,426] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD008.Chimeric.out.sam
+[2018-08-02 23:52:42,890] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD012.Chimeric.out.sam
+[2018-08-02 23:52:47,501] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD020.Chimeric.out.sam
+[2018-08-02 23:52:55,602] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD003.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:52:55,605] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD006.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:53:24,267] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD019.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:53:32,618] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD015.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:53:32,621] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD011.Chimeric.out.sam
+[2018-08-02 23:53:33,002] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD019.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:53:33,007] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD007.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:53:33,008] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD017.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:53:33,228] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD014.Chimeric.out.sam
+[2018-08-02 23:53:41,807] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD005.Aligned.sortedByCoord.out.bam
+[2018-08-02 23:53:46,325] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD014.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:53:46,328] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD008.Aligned.sortedByCoord.out.bam.bai
+[2018-08-02 23:53:46,330] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD015.Aligned.toTranscriptome.out.bam
+[2018-08-02 23:55:41,011] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD012.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:41,290] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD008.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:41,291] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD015.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:41,295] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD003.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:41,296] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD002.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:41,473] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD010.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:41,477] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD014.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:41,479] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD020.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:41,485] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD016.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:41,493] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD013.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:42,542] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD019.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:42,543] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD003.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:42,545] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD015.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:44,041] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD013.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:44,042] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD017.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:44,485] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD018.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:44,759] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD002.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:44,762] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD016.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:45,212] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD010.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:45,214] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD007.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:45,216] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD019.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:45,503] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD005.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:46,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD001.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:46,153] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD004.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:46,154] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD011.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:47,683] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD007.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:47,915] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD001.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:47,916] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD021.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:47,918] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD009.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:47,920] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD021.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:48,546] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD011.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:49,016] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD008.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:49,019] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD018.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:49,024] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD006.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:49,386] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD014.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:50,100] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD012.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:50,101] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD017.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:50,420] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD020.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:50,423] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD006.Aligned.sortedByCoord_markdup.bai
+[2018-08-02 23:55:50,425] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD005.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:50,829] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD004.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:51,293] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: RD009.Aligned.sortedByCoord_markdup.bam
+[2018-08-02 23:55:54,857] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2018-08-02 23:55:54,879] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2018-08-02 23:55:54,897] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2018-08-02 23:55:54,917] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2018-08-02 23:55:54,944] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2018-08-02 23:55:54,968] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2018-08-02 23:55:54,985] multiqc                                            [DEBUG  ]  No samples found: quast
+[2018-08-02 23:55:55,002] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2018-08-02 23:55:55,318] multiqc.modules.rna_seqc.rna_seqc                  [INFO   ]  Found 21 samples
+[2018-08-02 23:55:55,530] multiqc.modules.rsem.rsem                          [INFO   ]  Found 21 reports
+[2018-08-02 23:55:55,597] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2018-08-02 23:55:55,616] multiqc                                            [DEBUG  ]  No samples found: busco
+[2018-08-02 23:55:55,633] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2018-08-02 23:55:55,651] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2018-08-02 23:55:55,669] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2018-08-02 23:55:55,708] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2018-08-02 23:55:55,727] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2018-08-02 23:55:55,744] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2018-08-02 23:55:55,783] multiqc                                            [DEBUG  ]  No samples found: homer
+[2018-08-02 23:55:55,800] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2018-08-02 23:55:55,817] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2018-08-02 23:55:55,835] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2018-08-02 23:55:55,869] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2018-08-02 23:55:55,885] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2018-08-02 23:55:55,906] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2018-08-02 23:55:55,922] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2018-08-02 23:55:55,939] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2018-08-02 23:55:56,088] multiqc.modules.picard.picard                      [INFO   ]  Found 21 MarkDuplicates reports
+[2018-08-02 23:55:56,105] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2018-08-02 23:55:56,121] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2018-08-02 23:55:56,154] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2018-08-02 23:55:56,179] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2018-08-02 23:55:56,195] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2018-08-02 23:55:56,228] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2018-08-02 23:55:56,298] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2018-08-02 23:55:56,315] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2018-08-02 23:55:56,332] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2018-08-02 23:55:56,349] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2018-08-02 23:55:56,365] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2018-08-02 23:55:56,382] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2018-08-02 23:55:56,399] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2018-08-02 23:55:56,541] multiqc.modules.star.star                          [INFO   ]  Found 21 reports
+[2018-08-02 23:55:56,560] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2018-08-02 23:55:56,577] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2018-08-02 23:55:56,594] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2018-08-02 23:55:56,609] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2018-08-02 23:55:56,625] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2018-08-02 23:55:56,641] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2018-08-02 23:55:56,658] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2018-08-02 23:55:56,674] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2018-08-02 23:55:56,689] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2018-08-02 23:55:56,706] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2018-08-02 23:55:56,723] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2018-08-02 23:55:56,740] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2018-08-02 23:55:56,759] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2018-08-02 23:55:56,776] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2018-08-02 23:55:56,794] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2018-08-02 23:56:21,364] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 42 reports
+[2018-08-02 23:56:24,252] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2018-08-02 23:56:24,264] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2018-08-02 23:56:24,280] multiqc                                            [DEBUG  ]  No samples found: interop
+[2018-08-02 23:56:24,464] multiqc                                            [INFO   ]  Compressing plot data
+[2018-08-02 23:56:28,635] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2018-08-02 23:56:28,635] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2018-08-02 23:56:28,637] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpdlmjSe/multiqc_data/multiqc_data.json' to '/home/xli6/projects/kp1/multiqc/multiqc_data'
+[2018-08-02 23:56:28,664] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpdlmjSe/multiqc_data/multiqc_sources.txt' to '/home/xli6/projects/kp1/multiqc/multiqc_data'
+[2018-08-02 23:56:28,673] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpdlmjSe/multiqc_data/multiqc_general_stats.txt' to '/home/xli6/projects/kp1/multiqc/multiqc_data'
+[2018-08-02 23:56:28,682] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpdlmjSe/multiqc_data/multiqc_fastqc.txt' to '/home/xli6/projects/kp1/multiqc/multiqc_data'
+[2018-08-02 23:56:28,692] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpdlmjSe/multiqc_data/multiqc_star.txt' to '/home/xli6/projects/kp1/multiqc/multiqc_data'
+[2018-08-02 23:56:28,702] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpdlmjSe/multiqc_data/multiqc_picard_dups.txt' to '/home/xli6/projects/kp1/multiqc/multiqc_data'
+[2018-08-02 23:56:28,712] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpdlmjSe/multiqc_data/multiqc_rsem.txt' to '/home/xli6/projects/kp1/multiqc/multiqc_data'
+[2018-08-02 23:56:28,721] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpdlmjSe/multiqc_data/multiqc_rna_seqc.txt' to '/home/xli6/projects/kp1/multiqc/multiqc_data'
+[2018-08-02 23:56:29,062] multiqc                                            [INFO   ]  MultiQC complete
