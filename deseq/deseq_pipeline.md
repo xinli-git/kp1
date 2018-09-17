@@ -82,6 +82,9 @@ savehistory("~/projects/kp1/deseq/deseq_output/kp1_deseq.Rhistory")
 P1_samples = samples[samples[,"age"] == 'P1',];
 P1_rna = P1_samples[,'rna_lib'];
 P1_txi.rsem = txi.rsem; P1_txi.rsem$abundance = P1_txi.rsem$abundance[,P1_rna]; P1_txi.rsem$counts = P1_txi.rsem$counts[,P1_rna]; P1_txi.rsem$length = P1_txi.rsem$length[,P1_rna];
+P1_ddsTxi <- DESeqDataSetFromTximport(P1_txi.rsem, colData = P1_samples, design = ~ condition)
+P1_ddsTxi$condition <- relevel(P1_ddsTxi$condition, ref = "WT")
+P1_ddsTxi <- DESeq(P1_ddsTxi)
 ```
 
 ## 3. ma plot, html report
