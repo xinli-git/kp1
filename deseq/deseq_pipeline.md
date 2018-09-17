@@ -81,6 +81,7 @@ savehistory("~/projects/kp1/deseq/deseq_output/kp1_deseq.Rhistory")
 ```{r}
 P1_samples = samples[samples[,"age"] == 'P1',];
 P1_rna = P1_samples[,'rna_lib'];
+P1_txi.rsem = txi.rsem; P1_txi.rsem$abundance = P1_txi.rsem$abundance[,P1_rna]; P1_txi.rsem$counts = P1_txi.rsem$counts[,P1_rna]; P1_txi.rsem$length = P1_txi.rsem$length[,P1_rna];
 ```
 
 ## 3. ma plot, html report
