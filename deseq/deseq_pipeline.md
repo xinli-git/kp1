@@ -19,7 +19,7 @@ module load r/3.4.2
 R
 ```
 
-install deseq and dependent packages
+install deseq and dependent packages (first time)
 ```{r}
 source("https://bioconductor.org/biocLite.R")
 biocLite("tximport")
