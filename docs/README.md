@@ -20,7 +20,7 @@ https://xinli-git.github.io/kp1_supp/sample/SampleSheet.csv
 
 ### multiqc
 
-https://xinli-git.github.io/kp1_supp/multiqc_html/multiqc_report.html
+https://xinli-git.github.io/kp1/multiqc_html/multiqc_report.html
 
 ### rsem quantification
 
