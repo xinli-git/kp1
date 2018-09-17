@@ -95,3 +95,21 @@ https://xinli-git.github.io/kp1/rsem/kp1_fpkm_ginfo.txt
 * https://xinli-git.github.io/kp1/fastqc_html/RD021_merge_R1_fastqc.html
 * https://xinli-git.github.io/kp1/fastqc_html/RD021_merge_R2_fastqc.html
 
+## Methods
+
+### rnaseq
+
+* https://xinli-git.github.io/kp1/kp1_pipeline.md
+
+### deseq
+
+* https://xinli-git.github.io/kp1/deseq/deseq_pipeline.md
+
+
+
+
+
+
+
+
+
