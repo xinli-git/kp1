@@ -78,6 +78,11 @@ save.image(file="~/projects/kp1/deseq/deseq_output/kp1_deseq.RData")
 savehistory("~/projects/kp1/deseq/deseq_output/kp1_deseq.Rhistory")
 ```
 
+```{r}
+P1_samples = samples[samples[,"age"] == 'P1',];
+P1_rna = P1_samples[,'rna_lib'];
+```
+
 ## 3. ma plot, html report
 
 https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#rich-visualization-and-reporting-of-results
