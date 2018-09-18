@@ -12,6 +12,8 @@ https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_12w.html
 
 https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_92w.html
 
+https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_tumor.html
+
 https://xinli-git.github.io/kp1/reportingTools/kp1_RNAseq_analysis_with_DESeq2.html
 
 ### countclust
