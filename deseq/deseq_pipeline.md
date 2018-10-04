@@ -64,6 +64,7 @@ write.table(txi.rsem$abundance, file = file.path(dir, "kp1_supp", "rsem", "kp1_f
 
 ```{r}
 library("DESeq2")
+# by default, last design variable is used for contrast, other used as covariates
 ddsTxi <- DESeqDataSetFromTximport(txi.rsem, colData = samples, design = ~ tissue + age + condition)
 ddsTxi$condition <- relevel(ddsTxi$condition, ref = "WT")
 
