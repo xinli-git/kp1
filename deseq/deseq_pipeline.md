@@ -64,6 +64,7 @@ write.table(txi.rsem$abundance, file = file.path(dir, "kp1_supp", "rsem", "kp1_f
 
 * by default, last design variable is used for contrast, other used as covariates
 * https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#note-on-factor-levels
+* https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#multi-factor-designs
 ```{r}
 library("DESeq2")
 
