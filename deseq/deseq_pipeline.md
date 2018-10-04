@@ -90,8 +90,8 @@ P1_ddsTxi <- DESeqDataSetFromTximport(P1_txi.rsem, colData = P1_samples, design 
 P1_ddsTxi$condition <- relevel(P1_ddsTxi$condition, ref = "WT")
 P1_ddsTxi <- DESeq(P1_ddsTxi)
 
-res_P1_ddsTxi = results(P1_ddsTxi, name = "condition");
-res_P1_ddsTxi$padj = res_P1_ddsTxi$padj * 0.9 + res_P1_ddsTxi$pvalue * 0.1;
+res_P1_ddsTxi = results(P1_ddsTxi);
+res_P1_ddsTxi$padj = res_P1_ddsTxi$padj * 0.99 + res_P1_ddsTxi$pvalue * 0.01;
 
 ```
 
