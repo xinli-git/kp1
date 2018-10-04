@@ -107,6 +107,8 @@ pcaExplorer(dds = ddsTxi)
 
 ### ReportingTools html report
 http://bioconductor.org/packages/release/bioc/html/ReportingTools.html
+exported results are ranked by adj-pvalue, not distinguishable near 1, do not set threshold
+
 ```{r}
 library(ReportingTools)
 library(EnsDb.Mmusculus.v79)
@@ -115,7 +117,7 @@ setwd(file.path(dir, "deseq"))
 report2 <- HTMLReport(shortName = 'kp1_RNAseq_analysis_with_DESeq2',
 	title = 'kp1 RNA-seq analysis of differential expression using DESeq2',
 	reportDirectory = "../kp1_supp/reportingTools/")
-publish(ddsTxi, report2, pvalueCutoff=0.95, n=min(500,nrow(ddsTxi)),
+publish(ddsTxi, report2, pvalueCutoff=1.00, n=min(100000,nrow(ddsTxi)),
 	annotation.db="EnsDb.Mmusculus.v79", factor = colData(ddsTxi)$condition,
 	reportDir=dir_deseq)
 finish(report2)
