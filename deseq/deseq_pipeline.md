@@ -131,6 +131,7 @@ https://xinli-git.github.io/kp1_supp/reportingTools/kp1_RNAseq_analysis_with_DES
 ### regionReport html report
 http://bioconductor.org/packages/release/bioc/html/regionReport.html
 * exported results are ranked by adj-pvalue, not distinguishable near 1, do not rank by adj-pvalue, add some variation
+* supply the res= augument, otherwise run results by default contrast
 ```{r}
 library('ggplot2')
 library('regionReport')
