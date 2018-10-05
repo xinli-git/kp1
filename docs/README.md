@@ -107,11 +107,11 @@ https://xinli-git.github.io/kp1/rsem/kp1_fpkm_ginfo.txt
 
 ### rnaseq
 
-* https://github.com/xinli-git/kp1/kp1_rnaseq_pipeline.md
+* https://xinli-git.github.io/kp1/kp1_rnaseq_pipeline.md
 
 ### deseq
 
-* https://github.com/xinli-git/kp1/kp1_deseq_pipeline.md
+* https://xinli-git.github.io/kp1/kp1_deseq_pipeline.md
 
 
 
