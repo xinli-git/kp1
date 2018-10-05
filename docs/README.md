@@ -111,7 +111,7 @@ https://xinli-git.github.io/kp1/rsem/kp1_fpkm_ginfo.txt
 
 ### deseq
 
-* https://github.com/xinli-git/kp1/deseq_pipeline.md
+* https://github.com/xinli-git/kp1/kp1_deseq_pipeline.md
 
 
 
