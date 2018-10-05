@@ -92,7 +92,6 @@ P1_ddsTxi <- DESeq(P1_ddsTxi)
 
 res_P1_ddsTxi = results(P1_ddsTxi);
 res_P1_ddsTxi$padj = res_P1_ddsTxi$padj * 0.99 + res_P1_ddsTxi$pvalue * 0.01;
-
 ```
 
 ## 3. ma plot, html report
@@ -102,31 +101,6 @@ https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
 ```{r}
 load("~/projects/kp1/deseq/deseq_output/kp1_deseq.RData")
 ```
-
-### pcaExplorer
-need browser interface
-http://bioconductor.org/packages/release/bioc/vignettes/pcaExplorer/inst/doc/pcaExplorer.html
-```{r}
-library("pcaExplorer")
-pcaExplorer(dds = ddsTxi)
-```
-
-### ReportingTools html report
-http://bioconductor.org/packages/release/bioc/html/ReportingTools.html
-```{r}
-library(ReportingTools)
-library(EnsDb.Mmusculus.v79)
-dir_deseq <- file.path(dir, "kp1_supp", "deseq")
-setwd(file.path(dir, "deseq"))
-report2 <- HTMLReport(shortName = 'kp1_RNAseq_analysis_with_DESeq2',
-	title = 'kp1 RNA-seq analysis of differential expression using DESeq2',
-	reportDirectory = "../kp1_supp/reportingTools/")
-publish(ddsTxi, report2, pvalueCutoff=0.95, n=min(500,nrow(ddsTxi)),
-	annotation.db="EnsDb.Mmusculus.v79", factor = colData(ddsTxi)$condition,
-	reportDir=dir_deseq)
-finish(report2)
-```
-https://xinli-git.github.io/kp1_supp/reportingTools/kp1_RNAseq_analysis_with_DESeq2.html
 
 ### regionReport html report
 http://bioconductor.org/packages/release/bioc/html/regionReport.html
@@ -149,10 +123,36 @@ plotCounts_gg("ENSMUSG00000030020.13", dds = ddsTxi, intgroup = c('tissue', 'age
 dev.off()
 ```
 
+### ReportingTools html report
+http://bioconductor.org/packages/release/bioc/html/ReportingTools.html
+```{r}
+library(ReportingTools)
+library(EnsDb.Mmusculus.v79)
+dir_deseq <- file.path(dir, "kp1_supp", "deseq")
+setwd(file.path(dir, "deseq"))
+report2 <- HTMLReport(shortName = 'kp1_RNAseq_analysis_with_DESeq2',
+	title = 'kp1 RNA-seq analysis of differential expression using DESeq2',
+	reportDirectory = "../kp1_supp/reportingTools/")
+publish(ddsTxi, report2, pvalueCutoff=0.95, n=min(500,nrow(ddsTxi)),
+	annotation.db="EnsDb.Mmusculus.v79", factor = colData(ddsTxi)$condition,
+	reportDir=dir_deseq)
+finish(report2)
+```
+https://xinli-git.github.io/kp1_supp/reportingTools/kp1_RNAseq_analysis_with_DESeq2.html
+
+### pcaExplorer
+* need browser interface, can be skipped
+* http://bioconductor.org/packages/release/bioc/vignettes/pcaExplorer/inst/doc/pcaExplorer.html
+```{r}
+library("pcaExplorer")
+pcaExplorer(dds = ddsTxi)
+```
+
 ## 4. pca among samples
 
 * https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#principal-component-plot-of-the-samples
 * https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#data-quality-assessment-by-sample-clustering-and-visualization
+
 ### CountClust
 * https://bioconductor.org/packages/release/bioc/html/CountClust.html
 * load data from this paper (https://www.nature.com/articles/sdata2017185)
