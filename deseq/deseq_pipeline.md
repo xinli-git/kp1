@@ -115,7 +115,7 @@ report <- DESeq2Report(ddsTxi, res = res_ddsTxi, project = 'kp1 DESeq2 HTML repo
     intgroup = c('tissue', 'age', 'condition'), outdir = dir_deseq,
     output = 'kp1_deseq_index', theme = theme_bw())
 ```
-https://xinli-git.github.io/regionReport/kp1_deseq_index.html
+https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index.html
 
 ```{r}
 pdf(file.path(dir_deseq, "ENSMUSG00000030020.13.pdf"))
@@ -138,7 +138,7 @@ publish(ddsTxi, report_rt, pvalueCutoff=0.95, n=min(500,nrow(ddsTxi)),
 	reportDir=dir_report)
 finish(report_rt)
 ```
-https://xinli-git.github.io/reportingTools/kp1_RNAseq_analysis_with_DESeq2.html
+https://xinli-git.github.io/kp1/reportingTools/kp1_RNAseq_analysis_with_DESeq2.html
 
 ### pcaExplorer
 * need browser interface, can be skipped
@@ -203,7 +203,7 @@ StructureGGplot(omega = omega,
                                  axis_label_face = "bold"))
 dev.off()
 ```
-https://xinli-git.github.io/countclust/kp1_countclust.pdf
+https://xinli-git.github.io/kp1/countclust/kp1_countclust.pdf
 
 
 ## 5. vst (variance stablizing transformation)
