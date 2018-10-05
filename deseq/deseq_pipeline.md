@@ -109,13 +109,13 @@ http://bioconductor.org/packages/release/bioc/html/regionReport.html
 ```{r}
 library('ggplot2')
 library('regionReport')
-dir_deseq <- file.path(dir, "kp1_supp", "regionReport")
+dir_deseq <- file.path(dir, "docs", "regionReport")
 dir.create(dir_deseq, showWarnings = FALSE, recursive = TRUE)
 report <- DESeq2Report(ddsTxi, res = res_ddsTxi, project = 'kp1 DESeq2 HTML report', nBest = min(500,nrow(ddsTxi)), nBestFeatures = 20,  
     intgroup = c('tissue', 'age', 'condition'), outdir = dir_deseq,
     output = 'kp1_deseq_index', theme = theme_bw())
 ```
-https://xinli-git.github.io/kp1_supp/regionReport/kp1_deseq_index.html
+https://xinli-git.github.io/regionReport/kp1_deseq_index.html
 
 ```{r}
 pdf(file.path(dir_deseq, "ENSMUSG00000030020.13.pdf"))
@@ -128,17 +128,17 @@ http://bioconductor.org/packages/release/bioc/html/ReportingTools.html
 ```{r}
 library(ReportingTools)
 library(EnsDb.Mmusculus.v79)
-dir_deseq <- file.path(dir, "kp1_supp", "deseq")
-setwd(file.path(dir, "deseq"))
-report2 <- HTMLReport(shortName = 'kp1_RNAseq_analysis_with_DESeq2',
+dir_report <- file.path(dir, "docs", "reportingTools")
+setwd(file.path(dir_deseq))
+report_rt <- HTMLReport(shortName = 'kp1_RNAseq_analysis_with_DESeq2',
 	title = 'kp1 RNA-seq analysis of differential expression using DESeq2',
-	reportDirectory = "../kp1_supp/reportingTools/")
-publish(ddsTxi, report2, pvalueCutoff=0.95, n=min(500,nrow(ddsTxi)),
+	reportDirectory = dir_report)
+publish(ddsTxi, report_rt, pvalueCutoff=0.95, n=min(500,nrow(ddsTxi)),
 	annotation.db="EnsDb.Mmusculus.v79", factor = colData(ddsTxi)$condition,
-	reportDir=dir_deseq)
-finish(report2)
+	reportDir=dir_report)
+finish(report_rt)
 ```
-https://xinli-git.github.io/kp1_supp/reportingTools/kp1_RNAseq_analysis_with_DESeq2.html
+https://xinli-git.github.io/reportingTools/kp1_RNAseq_analysis_with_DESeq2.html
 
 ### pcaExplorer
 * need browser interface, can be skipped
@@ -203,7 +203,7 @@ StructureGGplot(omega = omega,
                                  axis_label_face = "bold"))
 dev.off()
 ```
-https://xinli-git.github.io/kp1_supp/kp1_countclust.pdf
+https://xinli-git.github.io/countclust/kp1_countclust.pdf
 
 
 ## 5. vst (variance stablizing transformation)
