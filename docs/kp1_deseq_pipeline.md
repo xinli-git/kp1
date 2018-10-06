@@ -45,6 +45,10 @@ files <- file.path(dir, "rsem", "rsem_output", paste0(samples$rna_lib, ".Aligned
 names(files) <- paste0("rna_", samples$rna_lib)
 txi.rsem <- tximport(files, type = "rsem", txIn = FALSE, txOut = FALSE)
 head(txi.rsem$counts)
+
+files <- file.path(dir, "rsem", "rsem_output", paste0(samples$rna_lib, ".Aligned.toTranscriptome.isoforms.results"))
+names(files) <- paste0("rna_", samples$rna_lib)
+txi_isoform.rsem <- tximport(files, type = "rsem", txIn = TRUE, txOut = TRUE)
 ```
 
 https://support.bioconductor.org/p/92763/
