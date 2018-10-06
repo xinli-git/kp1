@@ -1,0 +1,4 @@
+
+paste <(cut -f1 ../../rsem/rsem_output/RD001.Aligned.toTranscriptome.isoforms.results) kp1_isoform_fpkm.txt > temp.tsv
+
+
