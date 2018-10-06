@@ -54,7 +54,7 @@ txi.rsem$length[txi.rsem$length == 0] <- 1
 ```
 
 ```{r}
-write.table(txi.rsem$abundance, file = file.path(dir, "kp1_supp", "rsem", "kp1_fpkm.txt"), append = FALSE, quote = FALSE, sep = "\t",
+write.table(txi.rsem$abundance, file = file.path(dir, "docs", "rsem", "kp1_fpkm.txt"), append = FALSE, quote = FALSE, sep = "\t",
             eol = "\n", na = "NA", dec = ".", row.names = TRUE,
             col.names = TRUE, qmethod = c("escape", "double"),
             fileEncoding = "")
