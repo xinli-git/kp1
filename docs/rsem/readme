@@ -1,5 +1,6 @@
 
-paste <(cut -f1 ../../rsem/rsem_output/RD001.Aligned.toTranscriptome.isoforms.results) kp1_isoform_fpkm.txt > temp.tsv
-tbljoin -k"transcript_id","gene_id" gencode.vM17.transcripts.gtf temp.tsv > temp1.tsv
-
+paste <(cut -f1 ~/projects/kp1/rsem/rsem_output/RD001.Aligned.toTranscriptome.isoforms.results) kp1_isoform_fpkm.txt > temp.tsv
+tbljoin -k"transcript_id","gene_id" gencode.vM17.transcripts.gtf temp.tsv > kp1_isoform_fpkm_ginfo.tsv
+tblmap -s'gene_id=="ENSMUSG00000048636.7"' kp1_isoform_fpkm_ginfo.txt | column -t | less -nS
+tblmap -s'gene_name=="Adamts9"' kp1_isoform_fpkm_ginfo.txt | column -t | less -nS
 
