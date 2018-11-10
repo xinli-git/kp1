@@ -57,7 +57,7 @@ https://xinli-git.github.io/kp1/rsem/kp1_isoform_fpkm_ginfo.txt
 * https://xinli-git.github.io/kp1/rnaseqc_html/RD020_countMetrics.html
 * https://xinli-git.github.io/kp1/rnaseqc_html/RD021_countMetrics.html
 
-### fastqc
+### 7. fastqc
 
 * https://xinli-git.github.io/kp1/fastqc_html/RD001_merge_R1_fastqc.html
 * https://xinli-git.github.io/kp1/fastqc_html/RD001_merge_R2_fastqc.html
