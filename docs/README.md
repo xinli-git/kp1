@@ -12,6 +12,10 @@
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_isoform.html
 #### tumor vs. kidney:
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_tumor.html
+#### P1 age group:
+
+#### 12w age group:
+
 
 ### 2. countclust
 
