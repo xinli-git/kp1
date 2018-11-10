@@ -2,7 +2,7 @@
 
 ## kp1 analysis results
 
-### deseq2
+### 1. deseq2
 
 #### gene level:
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index.html
@@ -13,27 +13,27 @@
 #### tumor vs. kidney:
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_tumor.html
 
-### countclust
+### 2. countclust
 
 https://xinli-git.github.io/kp1/kp1_countclust.pdf
 
-### sample_sheet
+### 3. sample_sheet
 
 https://xinli-git.github.io/kp1/sample/kp1_sample_table.txt
 
 https://xinli-git.github.io/kp1/sample/SampleSheet.csv
 
-### multiqc
+### 4. multiqc
 
 https://xinli-git.github.io/kp1/multiqc_html/multiqc_report.html
 
-### rsem quantification
+### 5. rsem quantification
 
 https://xinli-git.github.io/kp1/rsem/kp1_fpkm_ginfo.txt
 
 https://xinli-git.github.io/kp1/rsem/kp1_isoform_fpkm_ginfo.txt
 
-### rnaseqc
+### 6. rnaseqc
 
 * https://xinli-git.github.io/kp1/rnaseqc_html/RD001_countMetrics.html
 * https://xinli-git.github.io/kp1/rnaseqc_html/RD002_countMetrics.html
