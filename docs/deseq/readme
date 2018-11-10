@@ -1,0 +1,1 @@
+tbljoin -k"gene_id" ../rsem/gencode.vM17.genes.gtf kp1_pvalue.txt | tblsort -k"chrom","gene_id" > kp1_pvalue_ginfo.txt
