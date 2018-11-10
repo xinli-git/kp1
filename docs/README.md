@@ -4,12 +4,11 @@
 
 ### deseq2
 
-https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index.html
+* https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index.html
+* https://xinli-git.github.io/kp1/deseq/kp1_pvalue_ginfo.txt
+* https://xinli-git.github.io/kp1/deseq/kp1_isoform_pvalue_ginfo.txt
 
-https://xinli-git.github.io/kp1/deseq/kp1_pvalue_ginfo.txt
-https://xinli-git.github.io/kp1/deseq/kp1_isoform_pvalue_ginfo.txt
-
-https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_tumor.html
+* https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_tumor.html
 
 ### countclust
 
