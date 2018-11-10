@@ -98,6 +98,14 @@ res_P1_ddsTxi = results(P1_ddsTxi);
 res_P1_ddsTxi$padj = res_P1_ddsTxi$padj * 0.99 + res_P1_ddsTxi$pvalue * 0.01;
 ```
 
+```{r}
+write.table(res_ddsTxi, file = file.path(dir, "docs", "deseq", "kp1_pvalue.txt"), append = FALSE, quote = FALSE, sep = "\t",
+            eol = "\n", na = "NA", dec = ".", row.names = TRUE,
+            col.names = TRUE, qmethod = c("escape", "double"),
+            fileEncoding = "")
+```
+
+
 ## 3. ma plot, html report
 
 https://bioconductor.org/packages/3.7/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#rich-visualization-and-reporting-of-results
