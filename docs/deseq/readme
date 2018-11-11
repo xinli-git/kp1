@@ -1,8 +1,7 @@
 
 paste <(cut -f1,2 ~/projects/kp1/rsem/rsem_output/RD001.Aligned.toTranscriptome.isoforms.results) kp1_isoform_pvalue.txt > temp.tsv
 tbljoin -k"transcript_id","gene_id" gencode.vM17.transcripts.gtf temp.tsv | tblsort -k"chrom","gene_id","transcript_id" > kp1_isoform_pvalue_ginfo.txt
-tblsort -k"pvalue"/g kp1_isoform_pvalue_ginfo.txt | tblmap -s 'pvalue != "NA"'
 
-tbljoin -k"gene_id" ../rsem/gencode.vM17.genes.gtf kp1_pvalue.txt | tblsort -k"chrom","gene_id" > kp1_pvalue_ginfo.txt
+tbljoin -k"gene_id" ../rsem/gencode.vM17.genes.gtf kp1_pvalue.txt | tblsort -k"chrom","gene_id" | tblsort -k"pvalue"/g | tblmap -s 'pvalue != "NA"' > kp1_pvalue_ginfo.txt
 
 
