@@ -12,10 +12,13 @@
 * https://xinli-git.github.io/kp1/deseq/kp1_isoform_pvalue_ginfo.txt
 #### P1 age group: WT vs. HET/KO
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_P1.html
+* https://xinli-git.github.io/kp1/deseq/kp1_P1_pvalue_ginfo.txt
 #### 12w age group: WT vs. HET/KO
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_12w.html
+* https://xinli-git.github.io/kp1/deseq/kp1_12w_pvalue_ginfo.txt
 #### tumor vs. kidney:
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_tumor.html
+* https://xinli-git.github.io/kp1/deseq/kp1_tumor_pvalue_ginfo.txt
 
 ### 2. countclust
 
