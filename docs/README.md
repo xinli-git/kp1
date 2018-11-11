@@ -13,9 +13,9 @@
 #### tumor vs. kidney:
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_tumor.html
 #### P1 age group: WT vs. HET/KO
-
+* https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_P1.html
 #### 12w age group: WT vs. HET/KO
-
+* https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_12w.html
 
 ### 2. countclust
 
