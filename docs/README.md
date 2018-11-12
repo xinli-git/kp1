@@ -4,10 +4,10 @@
 
 ### 1. deseq2
 https://xinli-git.github.io/kp1/deseq/kp1_pvalue_all_ginfo.txt
-#### gene level: WT vs. HET/KO
+#### gene level: all age groups, WT vs. HET/KO
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index.html
 * https://xinli-git.github.io/kp1/deseq/kp1_pvalue_ginfo.txt
-#### isoform level: WT vs. HET/KO
+#### isoform level: all age groups, WT vs. HET/KO
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_isoform.html
 * https://xinli-git.github.io/kp1/deseq/kp1_isoform_pvalue_ginfo.txt
 #### P1 age group: WT vs. HET/KO
