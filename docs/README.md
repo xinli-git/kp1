@@ -3,7 +3,7 @@
 ## kp1 analysis results
 
 ### 1. deseq2
-https://xinli-git.github.io/kp1/deseq/kp1_pvalue_all_ginfo.txt
+https://xinli-git.github.io/kp1/deseq/kp1_pvalue_all.txt
 #### gene level: all age groups, WT vs. HET/KO
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index.html
 * https://xinli-git.github.io/kp1/deseq/kp1_pvalue_ginfo.txt
