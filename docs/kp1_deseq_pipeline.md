@@ -82,7 +82,7 @@ resTxi_WTvsKO = results(ddsTxi, contrast = c("condition", "WT", "KO"))
 ```
 
 ```{r}
-save.image(file="~/projects/kp1/deseq/deseq_output/kp1_deseq.RData")
+save.image(file="~/projects/kp1/deseq/deseq_output/kp1_deseq_11082018.RData")
 savehistory("~/projects/kp1/deseq/deseq_output/kp1_deseq.Rhistory")
 ```
 
@@ -171,7 +171,7 @@ pcaExplorer(dds = ddsTxi)
 https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6081/
 * combine RPKM/TPM tables of two studies, need to use normalized data for pca
 ```{r}
-load("~/projects/kp1/deseq/deseq_output/kp1_deseq.RData")
+load("~/projects/kp1/deseq/deseq_output/kp1_deseq_11082018.RData")
 library(stringr)
 kp1_mouse_fpkm <- txi.rsem$abundance
 rownames(kp1_mouse_fpkm) <- str_extract(rownames(kp1_mouse_fpkm), '[^.]+')
@@ -202,7 +202,7 @@ annotation <- data.frame(
     tissue_label = factor(merged_design$compound,
                           levels = rev(unique(merged_design$compound) ) ) );
 
-pdf(file.path(dir, "kp1_supp", "kp1_countclust.pdf"))
+pdf(file.path(dir, "docs", "kp1_countclust.pdf"))
 StructureGGplot(omega = omega,
                 annotation = annotation,
                 palette = RColorBrewer::brewer.pal(8, "Accent"),
