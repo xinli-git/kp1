@@ -82,7 +82,7 @@ resTxi_WTvsKO = results(ddsTxi, contrast = c("condition", "WT", "KO"))
 ```
 
 ```{r}
-save.image(file="~/projects/kp1/deseq/deseq_output/kp1_deseq_11082018.RData")
+save.image(file="~/projects/kp1/deseq/deseq_output/kp1_deseq_11092018.RData")
 savehistory("~/projects/kp1/deseq/deseq_output/kp1_deseq.Rhistory")
 ```
 
@@ -171,7 +171,7 @@ pcaExplorer(dds = ddsTxi)
 https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6081/
 * combine RPKM/TPM tables of two studies, need to use normalized data for pca
 ```{r}
-load("~/projects/kp1/deseq/deseq_output/kp1_deseq_11082018.RData")
+load("~/projects/kp1/deseq/deseq_output/kp1_deseq_11092018.RData")
 library(stringr)
 kp1_mouse_fpkm <- txi.rsem$abundance
 rownames(kp1_mouse_fpkm) <- str_extract(rownames(kp1_mouse_fpkm), '[^.]+')
