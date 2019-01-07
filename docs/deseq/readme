@@ -1,4 +1,6 @@
 
+# add temp_id/gene_id column name to kp1_pvalue.txt first
+
 paste <(cut -f1,2 ~/projects/kp1/rsem/rsem_output/RD001.Aligned.toTranscriptome.isoforms.results) kp1_isoform_pvalue.txt > temp.tsv
 tbljoin -k"transcript_id","gene_id" ../rsem/gencode.vM17.transcripts.gtf temp.tsv | tblsort -k"chrom","gene_id","transcript_id" > kp1_isoform_pvalue_ginfo.txt
 
