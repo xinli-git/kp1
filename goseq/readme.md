@@ -30,5 +30,5 @@ check mm10 is available
 ```{r}
 library(goseq)
 supportedOrganisms()
-```{r}
+```
 
