@@ -25,4 +25,10 @@ R
 BiocManager::install("goseq", version = "3.8")
 ```
 
+check mm10 is available
+
+```{r}
+library(goseq)
+supportedOrganisms()
+```{r}
 
