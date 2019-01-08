@@ -32,3 +32,15 @@ library(goseq)
 supportedOrganisms()
 ```
 
+```{r}
+supportedOrganisms()[supportedOrganisms()$Genome=="mm10",]
+```
+
+
+
+
+
+
+
+
+
