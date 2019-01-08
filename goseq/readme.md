@@ -36,8 +36,13 @@ supportedOrganisms()
 supportedOrganisms()[supportedOrganisms()$Genome=="mm10",]
 ```
 
+test mm10 database
 
-
+```{r}
+BiocManager::install("org.Mm.eg.db", version = "3.8")
+getgo('ENSMUSG00000048636.7', 'mm10', 'ensGene')
+getlength('ENSMUSG00000048636.7', 'mm10', 'ensGene')
+```
 
 
 
