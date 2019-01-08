@@ -38,6 +38,7 @@ supportedOrganisms()[supportedOrganisms()$Genome=="mm10",]
 
 * install and test mm10 database
 * must remove .suffix for ensembl id
+* use ensGene as ID, geneSymbol is ambiguous in certain cases
 
 ```{r}
 BiocManager::install("org.Mm.eg.db", version = "3.8")
