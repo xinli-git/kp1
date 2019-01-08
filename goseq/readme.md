@@ -25,7 +25,7 @@ R
 BiocManager::install("goseq", version = "3.8")
 ```
 
-check mm10 is available
+* check mm10 is available
 
 ```{r}
 library(goseq)
@@ -36,8 +36,8 @@ supportedOrganisms()
 supportedOrganisms()[supportedOrganisms()$Genome=="mm10",]
 ```
 
-test mm10 database
-must remove .suffix for ensembl id
+* install and test mm10 database
+* must remove .suffix for ensembl id
 
 ```{r}
 BiocManager::install("org.Mm.eg.db", version = "3.8")
