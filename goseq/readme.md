@@ -11,7 +11,7 @@ https://bioconductor.org/packages/devel/bioc/vignettes/goseq/inst/doc/goseq.pdf
 
 ## install
 
-```{r}
+```{bash}
 which R
 module avail
 ```
@@ -20,4 +20,9 @@ module avail
 module load r/3.5.1
 R
 ```
+
+```{r}
+BiocManager::install("goseq", version = "3.8")
+```
+
 
