@@ -41,10 +41,13 @@ must remove .suffix for ensembl id
 
 ```{r}
 BiocManager::install("org.Mm.eg.db", version = "3.8")
+getgo('ENSMUSG00000048636', 'mm10', 'ensGene')
+
 BiocManager::install("TxDb.Mmusculus.UCSC.mm10.ensGene", version = "3.8")
+getlength('ENSMUSG00000048636', 'mm10', 'ensGene')
+
 BiocManager::install("TxDb.Mmusculus.UCSC.mm10.knownGene", version = "3.8")
-getgo('ENSMUSG00000048636.7', 'mm10', 'ensGene')
-getlength('ENSMUSG00000048636.7', 'mm10', 'ensGene')
+getlength('Pcyox1', 'mm10', 'geneSymbol')
 ```
 
 
