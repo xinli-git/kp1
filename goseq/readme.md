@@ -101,7 +101,7 @@ library(GO.db)
 for(go in enriched.GO){
         print(GOTERM[[go]])
         cat("--------------------------------------\n")}
-```{r}
+```
 
 ```{r}
 save.image(file="~/projects/kp1/deseq/deseq_output/kp1_goseq_01082019.RData")
