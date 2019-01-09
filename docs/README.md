@@ -33,7 +33,11 @@ https://xinli-git.github.io/kp1/deseq/kp1_pvalue_all.txt
 * https://xinli-git.github.io/kp1/goseq/kp1_goseq_wall.txt
 * https://xinli-git.github.io/kp1/goseq/gene_ontology.txt
 #### P1 age group: WT vs. HET/KO
+* https://xinli-git.github.io/kp1/goseq/kp1_P1_goseq_wall.txt
+* https://xinli-git.github.io/kp1/goseq/gene_ontology_P1.txt
 #### 12w age group: WT vs. HET/KO
+* https://xinli-git.github.io/kp1/goseq/kp1_12w_goseq_wall.txt
+* https://xinli-git.github.io/kp1/goseq/gene_ontology_12w.txt
 
 ### 3. countclust
 
