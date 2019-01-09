@@ -27,27 +27,34 @@ https://xinli-git.github.io/kp1/deseq/kp1_pvalue_all.txt
 * https://xinli-git.github.io/kp1/regionReport/kp1_deseq_index_tumor12w.html
 * https://xinli-git.github.io/kp1/deseq/kp1_tumor12w_pvalue_ginfo.txt
 
-### 2. countclust
+### 2. goseq
+
+* https://xinli-git.github.io/kp1/goseq/kp1_goseq_wall.txt
+* https://xinli-git.github.io/kp1/goseq/gene_ontology.txt
+
+* https://xinli-git.github.io/kp1/goseq/kp1_goseq_samp.txt
+
+### 3. countclust
 
 https://xinli-git.github.io/kp1/kp1_countclust.pdf
 
-### 3. sample_sheet
+### 4. sample_sheet
 
 https://xinli-git.github.io/kp1/sample/kp1_sample_table.txt
 
 https://xinli-git.github.io/kp1/sample/SampleSheet.csv
 
-### 4. multiqc
+### 5. multiqc
 
 https://xinli-git.github.io/kp1/multiqc_html/multiqc_report.html
 
-### 5. rsem quantification
+### 6. rsem quantification
 
 https://xinli-git.github.io/kp1/rsem/kp1_fpkm_ginfo.txt
 
 https://xinli-git.github.io/kp1/rsem/kp1_isoform_fpkm_ginfo.txt
 
-### 6. rnaseqc
+### 7. rnaseqc
 
 * https://xinli-git.github.io/kp1/rnaseqc_html/RD001_countMetrics.html
 * https://xinli-git.github.io/kp1/rnaseqc_html/RD002_countMetrics.html
@@ -71,7 +78,7 @@ https://xinli-git.github.io/kp1/rsem/kp1_isoform_fpkm_ginfo.txt
 * https://xinli-git.github.io/kp1/rnaseqc_html/RD020_countMetrics.html
 * https://xinli-git.github.io/kp1/rnaseqc_html/RD021_countMetrics.html
 
-### 7. fastqc
+### 8. fastqc
 
 * https://xinli-git.github.io/kp1/fastqc_html/RD001_merge_R1_fastqc.html
 * https://xinli-git.github.io/kp1/fastqc_html/RD001_merge_R2_fastqc.html
