@@ -1,4 +1,4 @@
-category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology
+temp_order	category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology
 603	GO:0001735	0.000999000999000999	1	1	2	prenylcysteine oxidase activity	MF
 1397	GO:0003009	0.000999000999000999	1	3	28	skeletal muscle contraction	BP
 1400	GO:0003012	0.000999000999000999	1	4	336	muscle system process	BP

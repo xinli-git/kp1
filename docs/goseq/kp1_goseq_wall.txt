@@ -1,4 +1,4 @@
-category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology
+temp_order	category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology
 9241	GO:0034361	7.59983045666276e-07	0.999999997620124	3	15	very-low-density lipoprotein particle	CC
 9263	GO:0034385	7.59983045666276e-07	0.999999997620124	3	15	triglyceride-rich plasma lipoprotein particle	CC
 1397	GO:0003009	3.90897233236911e-06	0.999999977141034	3	28	skeletal muscle contraction	BP

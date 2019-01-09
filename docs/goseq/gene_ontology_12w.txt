@@ -1,0 +1,20 @@
+GOID: GO:0010889
+Term: regulation of sequestering of triglyceride
+Ontology: BP
+Definition: Any process that modulates the rate, frequency or extent of
+    sequestering of triglyceride. Triglyceride sequestration is the
+    process of binding or confining any triester of glycerol such that
+    it is separated from other components of a biological system.
+Synonym: regulation of sequestering of triacylglycerol
+Synonym: regulation of triacylglycerol sequestration
+--------------------------------------
+GOID: GO:0002526
+Term: acute inflammatory response
+Ontology: BP
+Definition: Inflammation which comprises a rapid, short-lived,
+    relatively uniform response to acute injury or antigenic challenge
+    and is characterized by accumulations of fluid, plasma proteins,
+    and granulocytic leukocytes. An acute inflammatory response occurs
+    within a matter of minutes or hours, and either resolves within a
+    few days or becomes a chronic inflammatory response.
+--------------------------------------

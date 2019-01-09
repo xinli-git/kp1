@@ -1,0 +1,892 @@
+GOID: GO:0034363
+Term: intermediate-density lipoprotein particle
+Ontology: CC
+Definition: A triglyceride-rich lipoprotein particle that typically
+    contains APOB100, APOE and APOCs and has a density of 1.006-1.019
+    g/ml and a diameter of between 25-30 nm. IDL particles are found in
+    blood and are formed by the delipidation of very-low-density
+    lipoprotein particles (VLDL). IDL particles are removed from blood
+    by the liver, following binding to the APOE receptor, or are
+    converted to low-density lipoprotein (LDL).
+Synonym: IDL complex
+Synonym: IDL particle
+Synonym: intermediate-density lipoprotein complex
+--------------------------------------
+GOID: GO:0034361
+Term: very-low-density lipoprotein particle
+Ontology: CC
+Definition: A triglyceride-rich lipoprotein particle that is typically
+    composed of APOB100, APOE and APOCs and has a density of about
+    1.006 g/ml and a diameter of between 20-80 nm. It is found in blood
+    and transports endogenous products (newly synthesized cholesterol
+    and triglycerides) from the liver.
+Synonym: very-low-density lipoprotein complex
+Synonym: VLDL complex
+Synonym: VLDL particle
+--------------------------------------
+GOID: GO:0034385
+Term: triglyceride-rich plasma lipoprotein particle
+Ontology: CC
+Definition: A plasma lipoprotein particle that has a hydrophobic core
+    enriched in triglycerides surrounded by an amphipathic monolayer of
+    phospholipids, cholesterol and apolipoproteins. Triglyceride-rich
+    lipoprotein particles transport lipids, which are non-covalently
+    associated with the particles, in the blood.
+Synonym: triacylglycerol-rich lipoprotein particle
+Synonym: triglyceride-rich lipoprotein particle
+--------------------------------------
+GOID: GO:0042627
+Term: chylomicron
+Ontology: CC
+Definition: A large lipoprotein particle (diameter 75-1200 nm) composed
+    of a central core of triglycerides and cholesterol surrounded by a
+    protein-phospholipid coating. The proteins include one molecule of
+    apolipoprotein B-48 and may include a variety of apolipoproteins,
+    including APOAs, APOCs and APOE. Chylomicrons are found in blood or
+    lymph and carry lipids from the intestines into other body tissues.
+--------------------------------------
+GOID: GO:0004497
+Term: monooxygenase activity
+Ontology: MF
+Definition: Catalysis of the incorporation of one atom from molecular
+    oxygen into a compound and the reduction of the other atom of
+    oxygen to water.
+Synonym: hydroxylase activity
+--------------------------------------
+GOID: GO:0016713
+Term: oxidoreductase activity, acting on paired donors, with
+    incorporation or reduction of molecular oxygen, reduced iron-sulfur
+    protein as one donor, and incorporation of one atom of oxygen
+Ontology: MF
+Definition: Catalysis of an oxidation-reduction (redox) reaction in
+    which hydrogen or electrons are transferred from reduced
+    iron-sulfur protein and one other donor, and one atom of oxygen is
+    incorporated into one donor.
+Synonym: oxidoreductase activity, acting on paired donors, with
+    incorporation or reduction of molecular oxygen, reduced
+    iron-sulphur protein as one donor, and incorporation of one atom of
+    oxygen
+--------------------------------------
+GOID: GO:0008202
+Term: steroid metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving steroids,
+    compounds with a 1,2,cyclopentanoperhydrophenanthrene nucleus.
+Synonym: steroid metabolism
+--------------------------------------
+GOID: GO:0034358
+Term: plasma lipoprotein particle
+Ontology: CC
+Definition: A spherical particle with a hydrophobic core of
+    triglycerides and/or cholesterol esters, surrounded by an
+    amphipathic monolayer of phospholipids, cholesterol and
+    apolipoproteins. Plasma lipoprotein particles transport lipids,
+    which are non-covalently associated with the particles, in the
+    blood or lymph.
+--------------------------------------
+GOID: GO:1990777
+Term: lipoprotein particle
+Ontology: CC
+Definition: A spherical particle containing non-covalently associated
+    proteins and lipids. Examples are plasma lipoprotein particles
+    which transport lipids in the blood or lymph.
+--------------------------------------
+GOID: GO:0020037
+Term: heme binding
+Ontology: MF
+Definition: Interacting selectively and non-covalently with heme, any
+    compound of iron complexed in a porphyrin (tetrapyrrole) ring.
+Synonym: haem binding
+--------------------------------------
+GOID: GO:0006629
+Term: lipid metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving lipids,
+    compounds soluble in an organic solvent but not, or sparingly, in
+    an aqueous solvent. Includes fatty acids; neutral fats, other
+    fatty-acid esters, and soaps; long-chain (fatty) alcohols and
+    waxes; sphingoids and other long-chain bases; glycolipids,
+    phospholipids and sphingolipids; and carotenes, polyprenols,
+    sterols, terpenes and other isoprenoids.
+Synonym: lipid metabolism
+--------------------------------------
+GOID: GO:0032994
+Term: protein-lipid complex
+Ontology: CC
+Definition: A macromolecular complex containing separate protein and
+    lipid molecules.  Separate in this context means not covalently
+    bound to each other.
+--------------------------------------
+GOID: GO:0046906
+Term: tetrapyrrole binding
+Ontology: MF
+Definition: Interacting selectively and non-covalently with a
+    tetrapyrrole, a compound containing four pyrrole nuclei variously
+    substituted and linked to each other through carbons at the alpha
+    position.
+Synonym: porphyrin binding
+--------------------------------------
+GOID: GO:0005615
+Term: extracellular space
+Ontology: CC
+Definition: That part of a multicellular organism outside the cells
+    proper, usually taken to be outside the plasma membranes, and
+    occupied by fluid.
+Synonym: intercellular space
+--------------------------------------
+GOID: GO:0005576
+Term: extracellular region
+Ontology: CC
+Definition: The space external to the outermost structure of a cell.
+    For cells without external protective or external encapsulating
+    structures this refers to space outside of the plasma membrane.
+    This term covers the host cell environment outside an intracellular
+    parasite.
+Synonym: extracellular
+--------------------------------------
+GOID: GO:0019433
+Term: triglyceride catabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways resulting in the
+    breakdown of a triglyceride, any triester of glycerol.
+Synonym: triacylglycerol catabolic process
+Synonym: triacylglycerol catabolism
+Synonym: triglyceride breakdown
+Synonym: triglyceride catabolism
+Synonym: triglyceride degradation
+--------------------------------------
+GOID: GO:0016042
+Term: lipid catabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways resulting in the
+    breakdown of lipids, compounds soluble in an organic solvent but
+    not, or sparingly, in an aqueous solvent.
+Synonym: lipid breakdown
+Synonym: lipid catabolism
+Synonym: lipid degradation
+Synonym: lipolysis
+Synonym: multicellular organism lipid catabolic process
+Synonym: multicellular organismal lipid catabolic process
+Synonym: GO:0006724
+Synonym: GO:0044240
+Secondary: GO:0006724
+Secondary: GO:0044240
+--------------------------------------
+GOID: GO:0015850
+Term: organic hydroxy compound transport
+Ontology: BP
+Definition: The directed movement of an organic hydroxy compound
+    (organic alcohol) into, out of or within a cell, or between cells,
+    by means of some agent such as a transporter or pore. An organic
+    hydroxy compound is an organic compound having at least one hydroxy
+    group attached to a carbon atom.
+Synonym: organic alcohol transport
+--------------------------------------
+GOID: GO:0034366
+Term: spherical high-density lipoprotein particle
+Ontology: CC
+Definition: A mature high-density lipoprotein (HDL) particle, converted
+    from discoidal HDL particles following the esterification of
+    cholesterol in the particle by phosphatidylcholine-sterol
+    O-acyltransferase (lecithin cholesterol acyltransferase; LCAT).
+Synonym: mature HDL
+Synonym: mature high-density lipoprotein particle
+Synonym: spherical HDL
+--------------------------------------
+GOID: GO:0006694
+Term: steroid biosynthetic process
+Ontology: BP
+Definition: The chemical reactions and pathways resulting in the
+    formation of steroids, compounds with a
+    1,2,cyclopentanoperhydrophenanthrene nucleus; includes de novo
+    formation and steroid interconversion by modification.
+Synonym: steroid anabolism
+Synonym: steroid biosynthesis
+Synonym: steroid formation
+Synonym: steroid synthesis
+Synonym: steroidogenesis
+--------------------------------------
+GOID: GO:0050994
+Term: regulation of lipid catabolic process
+Ontology: BP
+Definition: Any process that modulates the frequency, rate, or extent
+    of the chemical reactions and pathways resulting in the breakdown
+    of lipids.
+Synonym: regulation of lipid breakdown
+Synonym: regulation of lipid catabolism
+Synonym: regulation of lipid degradation
+--------------------------------------
+GOID: GO:0030141
+Term: secretory granule
+Ontology: CC
+Definition: A small subcellular vesicle, surrounded by a membrane, that
+    is formed from the Golgi apparatus and contains a highly
+    concentrated protein destined for secretion. Secretory granules
+    move towards the periphery of the cell and upon stimulation, their
+    membranes fuse with the cell membrane, and their protein load is
+    exteriorized. Processing of the contained protein may take place in
+    secretory granules.
+Synonym: secretory vesicle
+--------------------------------------
+GOID: GO:0006869
+Term: lipid transport
+Ontology: BP
+Definition: The directed movement of lipids into, out of or within a
+    cell, or between cells, by means of some agent such as a
+    transporter or pore. Lipids are compounds soluble in an organic
+    solvent but not, or sparingly, in an aqueous solvent.
+--------------------------------------
+GOID: GO:0010817
+Term: regulation of hormone levels
+Ontology: BP
+Definition: Any process that modulates the levels of hormone within an
+    organism or a tissue. A hormone is any substance formed in very
+    small amounts in one specialized organ or group of cells and
+    carried (sometimes in the bloodstream) to another organ or group of
+    cells in the same organism, upon which it has a specific regulatory
+    action.
+--------------------------------------
+GOID: GO:0008211
+Term: glucocorticoid metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving
+    glucocorticoids, hormonal C21 corticosteroids synthesized from
+    cholesterol. Glucocorticoids act primarily on carbohydrate and
+    protein metabolism, and have anti-inflammatory effects.
+Synonym: glucocorticoid metabolism
+Synonym: glucocorticosteroid metabolic process
+Synonym: glucocorticosteroid metabolism
+--------------------------------------
+GOID: GO:0016705
+Term: oxidoreductase activity, acting on paired donors, with
+    incorporation or reduction of molecular oxygen
+Ontology: MF
+Definition: Catalysis of an oxidation-reduction (redox) reaction in
+    which hydrogen or electrons are transferred from each of two
+    donors, and molecular oxygen is reduced or incorporated into a
+    donor.
+Synonym: oxidoreductase activity, acting on paired donors, with
+    incorporation or reduction of molecular oxygen, miscellaneous
+--------------------------------------
+GOID: GO:0044281
+Term: small molecule metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving small
+    molecules, any low molecular weight, monomeric, non-encoded
+    molecule.
+Synonym: small molecule metabolism
+--------------------------------------
+GOID: GO:0097006
+Term: regulation of plasma lipoprotein particle levels
+Ontology: BP
+Definition: Any process involved in the maintenance of internal levels
+    of plasma lipoprotein particles within an organism.
+Synonym: plasma lipoprotein particle homeostasis
+--------------------------------------
+GOID: GO:0031983
+Term: vesicle lumen
+Ontology: CC
+Definition: The volume enclosed by the membrane or protein that forms a
+    vesicle.
+--------------------------------------
+GOID: GO:0046461
+Term: neutral lipid catabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways resulting in the
+    breakdown of neutral lipids, lipids only soluble in solvents of
+    very low polarity.
+Synonym: neutral lipid breakdown
+Synonym: neutral lipid catabolism
+Synonym: neutral lipid degradation
+--------------------------------------
+GOID: GO:0046464
+Term: acylglycerol catabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways resulting in the
+    breakdown of acylglycerol, any mono-, di- or triester of glycerol
+    with (one or more) fatty acids.
+Synonym: acylglycerol breakdown
+Synonym: acylglycerol catabolism
+Synonym: acylglycerol degradation
+--------------------------------------
+GOID: GO:0055102
+Term: lipase inhibitor activity
+Ontology: MF
+Definition: Stops, prevents or reduces the activity of a lipase, an
+    enzyme that catalyzes of the hydrolysis of a lipid.
+--------------------------------------
+GOID: GO:0010876
+Term: lipid localization
+Ontology: BP
+Definition: Any process in which a lipid is transported to, or
+    maintained in, a specific location.
+Synonym: lipid localisation
+--------------------------------------
+GOID: GO:0008395
+Term: steroid hydroxylase activity
+Ontology: MF
+Definition: Catalysis of the formation of a hydroxyl group on a steroid
+    by incorporation of oxygen from O2.
+Synonym: cytochrome P450 CYP2G1
+Synonym: olfactory-specific steroid hydroxylase activity
+Synonym: GO:0008394
+Secondary: GO:0008394
+--------------------------------------
+GOID: GO:0044421
+Term: extracellular region part
+Ontology: CC
+Definition: Any constituent part of the extracellular region, the space
+    external to the outermost structure of a cell. For cells without
+    external protective or external encapsulating structures this
+    refers to space outside of the plasma membrane. This term covers
+    constituent parts of the host cell environment outside an
+    intracellular parasite.
+Synonym: extracellular structure
+--------------------------------------
+GOID: GO:0008610
+Term: lipid biosynthetic process
+Ontology: BP
+Definition: The chemical reactions and pathways resulting in the
+    formation of lipids, compounds soluble in an organic solvent but
+    not, or sparingly, in an aqueous solvent.
+Synonym: lipid anabolism
+Synonym: lipid biosynthesis
+Synonym: lipid formation
+Synonym: lipid synthesis
+Synonym: lipogenesis
+--------------------------------------
+GOID: GO:0042445
+Term: hormone metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving any hormone,
+    naturally occurring substances secreted by specialized cells that
+    affects the metabolism or behavior of other cells possessing
+    functional receptors for the hormone.
+Synonym: hormone metabolism
+--------------------------------------
+GOID: GO:0044242
+Term: cellular lipid catabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways resulting in the
+    breakdown of lipids, as carried out by individual cells.
+Synonym: cellular lipid breakdown
+Synonym: cellular lipid catabolism
+Synonym: cellular lipid degradation
+--------------------------------------
+GOID: GO:0055114
+Term: oxidation-reduction process
+Ontology: BP
+Definition: A metabolic process that results in the removal or addition
+    of one or more electrons to or from a substance, with or without
+    the concomitant removal or addition of a proton or protons.
+Synonym: oxidation reduction
+Synonym: oxidoreductase process
+--------------------------------------
+GOID: GO:0016125
+Term: sterol metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving sterols,
+    steroids with one or more hydroxyl groups and a hydrocarbon
+    side-chain in the molecule.
+Synonym: sterol metabolism
+--------------------------------------
+GOID: GO:0008207
+Term: C21-steroid hormone metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving C21-steroid
+    hormones, steroid compounds containing 21 carbons which function as
+    hormones.
+Synonym: C21-steroid hormone metabolism
+--------------------------------------
+GOID: GO:0043178
+Term: alcohol binding
+Ontology: MF
+Definition: Interacting selectively and non-covalently with an alcohol,
+    any of a class of alkyl compounds containing a hydroxyl group.
+--------------------------------------
+GOID: GO:0005319
+Term: lipid transporter activity
+Ontology: MF
+Definition: Enables the directed movement of lipids into, out of or
+    within a cell, or between cells.
+Synonym: apolipoprotein
+Synonym: lipophorin
+--------------------------------------
+GOID: GO:0098992
+Term: neuronal dense core vesicle
+Ontology: CC
+Definition: A dense core vesicle (granule) that is part of a neuron.
+    These vesicles typically contain neuropeptides.  They can be found
+    in all parts of neurons, including the soma, dendrites, axonal
+    swellings (varicosities) and synaptic terminals.
+--------------------------------------
+GOID: GO:0045834
+Term: positive regulation of lipid metabolic process
+Ontology: BP
+Definition: Any process that activates or increases the frequency, rate
+    or extent of the chemical reactions and pathways involving lipids.
+Synonym: activation of lipid metabolic process
+Synonym: positive regulation of lipid metabolism
+Synonym: stimulation of lipid metabolic process
+Synonym: up regulation of lipid metabolic process
+Synonym: up-regulation of lipid metabolic process
+Synonym: upregulation of lipid metabolic process
+--------------------------------------
+GOID: GO:0044255
+Term: cellular lipid metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving lipids, as
+    carried out by individual cells.
+Synonym: cellular lipid metabolism
+--------------------------------------
+GOID: GO:0034754
+Term: cellular hormone metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving any hormone,
+    naturally occurring substances secreted by specialized cells that
+    affects the metabolism or behavior of other cells possessing
+    functional receptors for the hormone, as carried out by individual
+    cells.
+--------------------------------------
+GOID: GO:0034362
+Term: low-density lipoprotein particle
+Ontology: CC
+Definition: A lipoprotein particle, rich in cholesterol esters and low
+    in triglycerides that is typically composed of APOB100 and APOE and
+    has a density of 1.02-1.06 g/ml and a diameter of between 20-25 nm.
+    LDL particles are formed from VLDL particles (via IDL) by the loss
+    of triglyceride and gain of cholesterol ester. They transport
+    endogenous cholesterol (and to some extent triglycerides) from
+    peripheral tissues back to the liver.
+Synonym: LDL complex
+Synonym: LDL particle
+Synonym: low-density lipoprotein complex
+--------------------------------------
+GOID: GO:0006641
+Term: triglyceride metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving triglyceride,
+    any triester of glycerol. The three fatty acid residues may all be
+    the same or differ in any permutation. Triglycerides are important
+    components of plant oils, animal fats and animal plasma
+    lipoproteins.
+Synonym: triacylglycerol metabolic process
+Synonym: triacylglycerol metabolism
+Synonym: triglyceride metabolism
+--------------------------------------
+GOID: GO:0046503
+Term: glycerolipid catabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways resulting in the
+    breakdown of glycerolipids, any lipid with a glycerol backbone.
+Synonym: glycerolipid breakdown
+Synonym: glycerolipid catabolism
+Synonym: glycerolipid degradation
+--------------------------------------
+GOID: GO:0032787
+Term: monocarboxylic acid metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving
+    monocarboxylic acids, any organic acid containing one carboxyl
+    (COOH) group or anion (COO-).
+Synonym: monocarboxylate metabolic process
+Synonym: monocarboxylic acid metabolism
+--------------------------------------
+GOID: GO:0042221
+Term: response to chemical
+Ontology: BP
+Definition: Any process that results in a change in state or activity
+    of a cell or an organism (in terms of movement, secretion, enzyme
+    production, gene expression, etc.) as a result of a chemical
+    stimulus.
+Synonym: response to chemical stimulus
+Synonym: response to chemical substance
+--------------------------------------
+GOID: GO:0070653
+Term: high-density lipoprotein particle receptor binding
+Ontology: MF
+Definition: Interacting selectively and non-covalently with a
+    high-density lipoprotein receptor.
+Synonym: HDL receptor binding
+Synonym: high-density lipoprotein receptor binding
+--------------------------------------
+GOID: GO:0019216
+Term: regulation of lipid metabolic process
+Ontology: BP
+Definition: Any process that modulates the frequency, rate or extent of
+    the chemical reactions and pathways involving lipids.
+Synonym: regulation of lipid metabolism
+--------------------------------------
+GOID: GO:1901615
+Term: organic hydroxy compound metabolic process
+Ontology: BP
+Definition: NA
+Synonym: organic hydroxy compound metabolism
+--------------------------------------
+GOID: GO:0015721
+Term: bile acid and bile salt transport
+Ontology: BP
+Definition: The directed movement of bile acid and bile salts into, out
+    of or within a cell, or between cells, by means of some agent such
+    as a transporter or pore.
+Synonym: bile acid transport
+Synonym: bile salt transport
+--------------------------------------
+GOID: GO:0046890
+Term: regulation of lipid biosynthetic process
+Ontology: BP
+Definition: Any process that modulates the frequency, rate or extent of
+    the chemical reactions and pathways resulting in the formation of
+    lipids.
+Synonym: regulation of lipid anabolism
+Synonym: regulation of lipid biosynthesis
+Synonym: regulation of lipid formation
+Synonym: regulation of lipid synthesis
+Synonym: regulation of lipogenesis
+--------------------------------------
+GOID: GO:0042953
+Term: lipoprotein transport
+Ontology: BP
+Definition: The directed movement of any conjugated, water-soluble
+    protein in which the nonprotein group consists of a lipid or
+    lipids, into, out of or within a cell, or between cells, by means
+    of some agent such as a transporter or pore.
+--------------------------------------
+GOID: GO:0044872
+Term: lipoprotein localization
+Ontology: BP
+Definition: Any process in which a lipoprotein is transported to, or
+    maintained in, a specific location.
+--------------------------------------
+GOID: GO:0034368
+Term: protein-lipid complex remodeling
+Ontology: BP
+Definition: The acquisition, loss or modification of a protein or lipid
+    within a protein-lipid complex.
+--------------------------------------
+GOID: GO:0034369
+Term: plasma lipoprotein particle remodeling
+Ontology: BP
+Definition: The acquisition, loss or modification of a protein or lipid
+    within a plasma lipoprotein particle, including the hydrolysis of
+    triglyceride by hepatic lipase, with the subsequent loss of free
+    fatty acid, and the esterification of cholesterol by
+    phosphatidylcholine-sterol O-acyltransferase (lecithin cholesterol
+    acyltransferase; LCAT).
+--------------------------------------
+GOID: GO:0017127
+Term: cholesterol transporter activity
+Ontology: MF
+Definition: Enables the directed movement of cholesterol into, out of
+    or within a cell, or between cells. Cholesterol is the principal
+    sterol of vertebrates and the precursor of many steroids, including
+    bile acids and steroid hormones.
+--------------------------------------
+GOID: GO:0034364
+Term: high-density lipoprotein particle
+Ontology: CC
+Definition: A lipoprotein particle with a high density (typically
+    1.063-1.21 g/ml) and a diameter of 5-10 nm that contains APOAs and
+    may contain APOCs and APOE; found in blood and carries lipids from
+    body tissues to the liver as part of the reverse cholesterol
+    transport process.
+Synonym: HDL complex
+Synonym: HDL particle
+Synonym: HDL2
+Synonym: HDL3
+Synonym: high-density lipoprotein class complex
+--------------------------------------
+GOID: GO:0006700
+Term: C21-steroid hormone biosynthetic process
+Ontology: BP
+Definition: The chemical reactions and pathways resulting in the
+    formation of C21-steroid hormones, steroid compounds containing 21
+    carbons which function as hormones.
+Synonym: C21-steroid hormone anabolism
+Synonym: C21-steroid hormone biosynthesis
+Synonym: C21-steroid hormone formation
+Synonym: C21-steroid hormone synthesis
+--------------------------------------
+GOID: GO:0008289
+Term: lipid binding
+Ontology: MF
+Definition: Interacting selectively and non-covalently with a lipid.
+--------------------------------------
+GOID: GO:0034367
+Term: protein-containing complex remodeling
+Ontology: BP
+Definition: The acquisition, loss, or modification of macromolecules
+    within a complex, resulting in the alteration of an existing
+    complex.
+Synonym: macromolecular complex remodeling
+--------------------------------------
+GOID: GO:0042180
+Term: cellular ketone metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving any of a
+    class of organic compounds that contain the carbonyl group, CO, and
+    in which the carbonyl group is bonded only to carbon atoms, as
+    carried out by individual cells. The general formula for a ketone
+    is RCOR, where R and R are alkyl or aryl groups.
+Synonym: ketone metabolism
+--------------------------------------
+GOID: GO:0006639
+Term: acylglycerol metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving acylglycerol,
+    any mono-, di- or triester of glycerol with (one or more) fatty
+    acids.
+Synonym: acylglycerol metabolism
+Synonym: glyceride metabolic process
+Synonym: glyceride metabolism
+--------------------------------------
+GOID: GO:0050996
+Term: positive regulation of lipid catabolic process
+Ontology: BP
+Definition: Any process that activates or increases the frequency, rate
+    or extent of the chemical reactions and pathways resulting in the
+    breakdown of lipids.
+Synonym: activation of lipid catabolic process
+Synonym: positive regulation of lipid breakdown
+Synonym: positive regulation of lipid catabolism
+Synonym: positive regulation of lipid degradation
+Synonym: stimulation of lipid catabolic process
+Synonym: up regulation of lipid catabolic process
+Synonym: up-regulation of lipid catabolic process
+Synonym: upregulation of lipid catabolic process
+--------------------------------------
+GOID: GO:0006638
+Term: neutral lipid metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving neutral
+    lipids, lipids only soluble in solvents of very low polarity.
+Synonym: neutral lipid metabolism
+--------------------------------------
+GOID: GO:0010915
+Term: regulation of very-low-density lipoprotein particle clearance
+Ontology: BP
+Definition: Any process that modulates the rate, frequency or extent of
+    very-low-density lipoprotein particle clearance. Very-low-density
+    lipoprotein particle clearance is the process in which a
+    very-low-density lipoprotein particle is removed from the blood via
+    receptor-mediated endocytosis and its constituent parts degraded.
+Synonym: regulation of VLDL clearance
+Synonym: regulation of VLDL particle clearance
+--------------------------------------
+GOID: GO:0010916
+Term: negative regulation of very-low-density lipoprotein particle
+    clearance
+Ontology: BP
+Definition: Any process that decreases the rate, frequency or extent of
+    very-low-density lipoprotein particle clearance. Very-low-density
+    lipoprotein particle clearance is the process in which a
+    very-low-density lipoprotein particle is removed from the blood via
+    receptor-mediated endocytosis and its constituent parts degraded.
+Synonym: negative regulation of VLDL clearance
+Synonym: negative regulation of VLDL particle clearance
+--------------------------------------
+GOID: GO:0008203
+Term: cholesterol metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving cholesterol,
+    cholest-5-en-3 beta-ol, the principal sterol of vertebrates and the
+    precursor of many steroids, including bile acids and steroid
+    hormones. It is a component of the plasma membrane lipid bilayer
+    and of plasma lipoproteins and can be found in all animal tissues.
+Synonym: cholesterol metabolism
+--------------------------------------
+GOID: GO:0006066
+Term: alcohol metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving alcohols, any
+    of a class of compounds containing one or more hydroxyl groups
+    attached to a saturated carbon atom.
+Synonym: alcohol metabolism
+--------------------------------------
+GOID: GO:0042446
+Term: hormone biosynthetic process
+Ontology: BP
+Definition: The chemical reactions and pathways resulting in the
+    formation of any hormone, naturally occurring substances secreted
+    by specialized cells that affects the metabolism or behavior of
+    other cells possessing functional receptors for the hormone.
+Synonym: hormone anabolism
+Synonym: hormone biosynthesis
+Synonym: hormone formation
+Synonym: hormone synthesis
+--------------------------------------
+GOID: GO:0016491
+Term: oxidoreductase activity
+Ontology: MF
+Definition: Catalysis of an oxidation-reduction (redox) reaction, a
+    reversible chemical reaction in which the oxidation state of an
+    atom or atoms within a molecule is altered. One substrate acts as a
+    hydrogen or electron donor and becomes oxidized, while the other
+    acts as hydrogen or electron acceptor and becomes reduced.
+Synonym: oxidoreductase activity, acting on other substrates
+Synonym: redox activity
+--------------------------------------
+GOID: GO:1902652
+Term: secondary alcohol metabolic process
+Ontology: BP
+Definition: NA
+Synonym: secondary alcohol metabolism
+--------------------------------------
+GOID: GO:0046165
+Term: alcohol biosynthetic process
+Ontology: BP
+Definition: The chemical reactions and pathways resulting in the
+    formation of alcohols, any of a class of compounds containing one
+    or more hydroxyl groups attached to a saturated carbon atom.
+Synonym: alcohol anabolism
+Synonym: alcohol biosynthesis
+Synonym: alcohol formation
+Synonym: alcohol synthesis
+--------------------------------------
+GOID: GO:0099503
+Term: secretory vesicle
+Ontology: CC
+Definition: A cytoplasmic, membrane bound vesicle that is capable of
+    fusing to the plasma membrane to release its contents into the
+    extracellular space.
+--------------------------------------
+GOID: GO:1901617
+Term: organic hydroxy compound biosynthetic process
+Ontology: BP
+Definition: NA
+Synonym: organic hydroxy compound anabolism
+Synonym: organic hydroxy compound biosynthesis
+Synonym: organic hydroxy compound formation
+Synonym: organic hydroxy compound synthesis
+--------------------------------------
+GOID: GO:0048037
+Term: cofactor binding
+Ontology: MF
+Definition: Interacting selectively and non-covalently with a cofactor,
+    a substance that is required for the activity of an enzyme or other
+    protein. Cofactors may be inorganic, such as the metal atoms zinc,
+    iron, and copper in certain forms, or organic, in which case they
+    are referred to as coenzymes. Cofactors may either be bound tightly
+    to active sites or bind loosely with the substrate.
+--------------------------------------
+GOID: GO:0043436
+Term: oxoacid metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving any oxoacid;
+    an oxoacid is a compound which contains oxygen, at least one other
+    element, and at least one hydrogen bound to oxygen, and which
+    produces a conjugate base by loss of positive hydrogen ion(s)
+    (hydrons).
+Synonym: keto acid metabolic process
+Synonym: keto acid metabolism
+Synonym: ketoacid metabolic process
+Synonym: ketoacid metabolism
+Synonym: oxo acid metabolic process
+Synonym: oxo acid metabolism
+Synonym: oxoacid metabolism
+--------------------------------------
+GOID: GO:0031045
+Term: dense core granule
+Ontology: CC
+Definition: Electron-dense organelle with a granular internal matrix;
+    contains proteins destined to be secreted.
+Synonym: dense core vesicle
+--------------------------------------
+GOID: GO:0006082
+Term: organic acid metabolic process
+Ontology: BP
+Definition: The chemical reactions and pathways involving organic
+    acids, any acidic compound containing carbon in covalent linkage.
+Synonym: organic acid metabolism
+--------------------------------------
+GOID: GO:0015918
+Term: sterol transport
+Ontology: BP
+Definition: The directed movement of sterols into, out of or within a
+    cell, or between cells, by means of some agent such as a
+    transporter or pore. Sterols are steroids with one or more hydroxyl
+    groups and a hydrocarbon side-chain in the molecule.
+--------------------------------------
+GOID: GO:0030301
+Term: cholesterol transport
+Ontology: BP
+Definition: The directed movement of cholesterol,
+    cholest-5-en-3-beta-ol, into, out of or within a cell, or between
+    cells, by means of some agent such as a transporter or pore.
+--------------------------------------
+GOID: GO:0006642
+Term: triglyceride mobilization
+Ontology: BP
+Definition: The release of triglycerides, any triester of glycerol,
+    from storage within cells or tissues, making them available for
+    metabolism.
+Synonym: triacylglycerol mobilization
+--------------------------------------
+GOID: GO:0005506
+Term: iron ion binding
+Ontology: MF
+Definition: Interacting selectively and non-covalently with iron (Fe)
+    ions.
+Synonym: iron binding
+--------------------------------------
+GOID: GO:0070325
+Term: lipoprotein particle receptor binding
+Ontology: MF
+Definition: Interacting selectively and non-covalently with a
+    lipoprotein particle receptor.
+--------------------------------------
+GOID: GO:0018685
+Term: alkane 1-monooxygenase activity
+Ontology: MF
+Definition: Catalysis of the reaction: octane + reduced rubredoxin + O2
+    = 1-octanol + oxidized rubredoxin + H2O.
+Synonym: 1-hydroxylase activity
+Synonym: alkane 1-hydroxylase activity
+Synonym: alkane hydroxylase activity
+Synonym: alkane monooxygenase activity
+Synonym: alkane,reduced-rubredoxin:oxygen 1-oxidoreductase activity
+Synonym: fatty acid (omega-1)-hydroxylase activity
+Synonym: fatty acid omega-hydroxylase activity
+Synonym: lauric acid omega-hydroxylase activity
+Synonym: omega-hydroxylase activity
+Synonym: GO:0008393
+Secondary: GO:0008393
+--------------------------------------
+GOID: GO:0034774
+Term: secretory granule lumen
+Ontology: CC
+Definition: The volume enclosed by the membrane of a secretory granule.
+--------------------------------------
+GOID: GO:0060205
+Term: cytoplasmic vesicle lumen
+Ontology: CC
+Definition: The volume enclosed by a cytoplasmic vesicle.
+Synonym: cytoplasmic membrane-bounded vesicle lumen
+Synonym: cytoplasmic membrane-enclosed vesicle lumen
+--------------------------------------
+GOID: GO:0071827
+Term: plasma lipoprotein particle organization
+Ontology: BP
+Definition: A protein-lipid complex subunit organization process that
+    results in the formation, disassembly, or alteration of a plasma
+    lipoprotein particle. A plasma lipoprotein particle is a spherical
+    particle with a hydrophobic core of triglycerides and/or
+    cholesterol esters, surrounded by an amphipathic monolayer of
+    phospholipids, cholesterol and apolipoproteins.
+Synonym: plasma lipoprotein particle organisation
+--------------------------------------
+GOID: GO:0034447
+Term: very-low-density lipoprotein particle clearance
+Ontology: BP
+Definition: The process in which a very-low-density lipoprotein
+    particle is removed from the blood via receptor-mediated
+    endocytosis and its constituent parts degraded.
+Synonym: VLDL clearance
+--------------------------------------
+GOID: GO:0015248
+Term: sterol transporter activity
+Ontology: MF
+Definition: Enables the directed movement of sterols into, out of or
+    within a cell, or between cells. Sterol are steroids with one or
+    more hydroxyl groups and a hydrocarbon side-chain in the molecule.
+--------------------------------------
