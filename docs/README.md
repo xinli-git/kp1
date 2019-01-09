@@ -32,8 +32,6 @@ https://xinli-git.github.io/kp1/deseq/kp1_pvalue_all.txt
 * https://xinli-git.github.io/kp1/goseq/kp1_goseq_wall.txt
 * https://xinli-git.github.io/kp1/goseq/gene_ontology.txt
 
-* https://xinli-git.github.io/kp1/goseq/kp1_goseq_samp.txt
-
 ### 3. countclust
 
 https://xinli-git.github.io/kp1/kp1_countclust.pdf
