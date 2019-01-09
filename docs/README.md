@@ -29,8 +29,11 @@ https://xinli-git.github.io/kp1/deseq/kp1_pvalue_all.txt
 
 ### 2. goseq
 
+#### gene level: all age groups, WT vs. HET/KO
 * https://xinli-git.github.io/kp1/goseq/kp1_goseq_wall.txt
 * https://xinli-git.github.io/kp1/goseq/gene_ontology.txt
+#### P1 age group: WT vs. HET/KO
+#### 12w age group: WT vs. HET/KO
 
 ### 3. countclust
 
