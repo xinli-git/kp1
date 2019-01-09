@@ -57,7 +57,7 @@ getlength('Pcyox1', 'mm10', 'geneSymbol')
 ```{r}
 dir <- "~/projects/kp1/"
 load(file="~/projects/kp1/deseq/deseq_output/kp1_deseq_11092018.RData");
-```{r}
+```
 
 ```{r}
 tested = res_ddsTxi[!is.na(res_ddsTxi$lfcSE) & !is.na(res_ddsTxi$padj),]
