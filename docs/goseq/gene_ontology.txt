@@ -1,0 +1,72 @@
+GOID: GO:0034361
+Term: very-low-density lipoprotein particle
+Ontology: CC
+Definition: A triglyceride-rich lipoprotein particle that is typically
+    composed of APOB100, APOE and APOCs and has a density of about
+    1.006 g/ml and a diameter of between 20-80 nm. It is found in blood
+    and transports endogenous products (newly synthesized cholesterol
+    and triglycerides) from the liver.
+Synonym: very-low-density lipoprotein complex
+Synonym: VLDL complex
+Synonym: VLDL particle
+--------------------------------------
+GOID: GO:0034385
+Term: triglyceride-rich plasma lipoprotein particle
+Ontology: CC
+Definition: A plasma lipoprotein particle that has a hydrophobic core
+    enriched in triglycerides surrounded by an amphipathic monolayer of
+    phospholipids, cholesterol and apolipoproteins. Triglyceride-rich
+    lipoprotein particles transport lipids, which are non-covalently
+    associated with the particles, in the blood.
+Synonym: triacylglycerol-rich lipoprotein particle
+Synonym: triglyceride-rich lipoprotein particle
+--------------------------------------
+GOID: GO:0003009
+Term: skeletal muscle contraction
+Ontology: BP
+Definition: A process in which force is generated within skeletal
+    muscle tissue, resulting in a change in muscle geometry. Force
+    generation involves a chemo-mechanical energy conversion step that
+    is carried out by the actin/myosin complex activity, which
+    generates force through ATP hydrolysis. In the skeletal muscle, the
+    muscle contraction takes advantage of an ordered sarcomeric
+    structure and in most cases it is under voluntary control.
+--------------------------------------
+GOID: GO:0034358
+Term: plasma lipoprotein particle
+Ontology: CC
+Definition: A spherical particle with a hydrophobic core of
+    triglycerides and/or cholesterol esters, surrounded by an
+    amphipathic monolayer of phospholipids, cholesterol and
+    apolipoproteins. Plasma lipoprotein particles transport lipids,
+    which are non-covalently associated with the particles, in the
+    blood or lymph.
+--------------------------------------
+GOID: GO:1990777
+Term: lipoprotein particle
+Ontology: CC
+Definition: A spherical particle containing non-covalently associated
+    proteins and lipids. Examples are plasma lipoprotein particles
+    which transport lipids in the blood or lymph.
+--------------------------------------
+GOID: GO:0032994
+Term: protein-lipid complex
+Ontology: CC
+Definition: A macromolecular complex containing separate protein and
+    lipid molecules.  Separate in this context means not covalently
+    bound to each other.
+--------------------------------------
+GOID: GO:0050879
+Term: multicellular organismal movement
+Ontology: BP
+Definition: Any physiological process involved in changing the position
+    of a multicellular organism or an anatomical part of a
+    multicellular organism.
+--------------------------------------
+GOID: GO:0050881
+Term: musculoskeletal movement
+Ontology: BP
+Definition: The movement of an organism or part of an organism using
+    mechanoreceptors, the nervous system, striated muscle and/or the
+    skeletal system.
+--------------------------------------
